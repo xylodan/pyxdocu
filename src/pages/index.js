@@ -16,12 +16,19 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            UNTP Introduction - 5min ⏱️
           </Link>
+        </div>
+
+
+        {/* Add the SVG to the hero section */}
+        <div className={styles.heroImage}>
+            <img src="/img/241009pyx-bg.svg" alt="Hero Icon" />
         </div>
       </div>
     </header>

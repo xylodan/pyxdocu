@@ -5,12 +5,12 @@
  */
 export default {
   "title": "PYX Knowledge Base",
-  "tagline": "Dinosaurs are cool",
-  "favicon": "img/favicon.ico",
-  "url": "https://170.64.206.53",
-  "baseUrl": "/docs/",
+  "tagline": "Technical Documents and Articles",
+  "favicon": "img/pyx-favicon.ico",
+  "url": "https://kb.pyx.io",
+  "baseUrl": "/",
   "organizationName": "pyx",
-  "projectName": "knowledge-base",
+  "projectName": "pyxdocu",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -45,22 +45,27 @@ export default {
       "title": "PYX Knowledge Base",
       "logo": {
         "alt": "PYX Logo",
-        "src": "img/logo.svg"
+        "src": "img/pyx-logo.svg"
       },
       "items": [
         {
           "type": "docSidebar",
           "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
+          "position": "right",
+          "label": "Tech Docs"
         },
         {
           "to": "/blog",
-          "label": "Blog",
-          "position": "left"
+          "label": "Articles",
+          "position": "right"
         },
         {
-          "href": "https://github.com/pyx/knowledge-base",
+          "href": "https://forum.pyx.io/",
+          "label": "Forums",
+          "position": "right"
+        },
+        {
+          "href": "https://github.com/uncefact/spec-untp",
           "label": "GitHub",
           "position": "right"
         }
@@ -74,7 +79,7 @@ export default {
           "title": "Docs",
           "items": [
             {
-              "label": "Tutorial",
+              "label": "Tech Docs",
               "to": "/docs/intro"
             }
           ]
@@ -100,7 +105,7 @@ export default {
           "title": "More",
           "items": [
             {
-              "label": "Blog",
+              "label": "Articles",
               "to": "/blog"
             },
             {
@@ -339,6 +344,12 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "stylesheets": [
+    {
+      "href": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap",
+      "type": "text/css"
+    }
+  ],
   "baseUrlIssueBanner": true,
   "future": {
     "experimental_storage": {
@@ -357,7 +368,6 @@ export default {
   "themes": [],
   "scripts": [],
   "headTags": [],
-  "stylesheets": [],
   "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,

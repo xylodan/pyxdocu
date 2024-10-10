@@ -9,18 +9,18 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'PYX Knowledge Base',  // Your project title
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  tagline: 'Technical Documents and Articles',
+  favicon: 'img/pyx-favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://170.64.206.53',  // Your actual site URL
+  url: 'https://kb.pyx.io/',  // Your actual site URL
   // Set the /<baseUrl>/ pathname under which your site is served
-  baseUrl: '/docs/',  // Set the base URL for your docs
+  baseUrl: '/',  // Set the base URL for your docs
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'pyx', // Usually your GitHub org/user name.
-  projectName: 'knowledge-base', // Usually your repo name.
+  projectName: 'pyxdocu', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -58,18 +58,24 @@ const config = {
         title: 'PYX Knowledge Base',
         logo: {
           alt: 'PYX Logo',
-          src: 'img/logo.svg',
+          src: 'img/pyx-logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
+            position: 'right',
+            label: 'Tech Docs',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Articles', position: 'right' },
           {
-            href: 'https://github.com/pyx/knowledge-base',
+            href: 'https://forum.pyx.io/',  // New external URL link
+            label: 'Forums',        // Label for the new link
+            position: 'right',             // Position it on the right
+          },
+
+          {
+            href: 'https://github.com/uncefact/spec-untp',
             label: 'GitHub',
             position: 'right',
           },
@@ -82,7 +88,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Tech Docs',
                 to: '/docs/intro',
               },
             ],
@@ -108,7 +114,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'Articles',
                 to: '/blog',
               },
               {
@@ -124,7 +130,20 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      colorMode: {
+        defaultMode: 'light',  // Set the default mode to dark
+        disableSwitch: false, // Allow the user to switch between dark and light modes
+        respectPrefersColorScheme: false, // Don't respect the system preferences, always start in dark mode
+      },
     }),
+
+  // Add Google Fonts stylesheets here
+  stylesheets: [
+    {
+      href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap',
+      type: 'text/css',
+    },
+  ],
 };
 
 export default config;

@@ -4,9 +4,10 @@
  * work well for content-centric websites.
  */
 
+/* Light theme styles
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #efd765;
+  --ifm-color-primary: #000000;
   --ifm-color-primary-dark: #d2bb2d;
   --ifm-color-primary-darker: #5a5a5a;
   --ifm-color-primary-darkest: #000000;
@@ -17,14 +18,101 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+/* Dark theme styling
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #efd765;
+  --ifm-color-primary: #ffffff;
   --ifm-color-primary-dark: #d2bb2d;
-  --ifm-color-primary-darker: #5a5a5a;
+  --ifm-color-primary-darker: #000000;
   --ifm-color-primary-darkest: #000000;
   --ifm-color-primary-light: #d2bb2d;
   --ifm-color-primary-lighter: #efd765;
   --ifm-color-primary-lightest: #e6e6e6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Global styling of light and dark themes
+/* Make the navbar background black in both light and dark modes */
+.navbar {
+  background-color: #000000; /* Set the background to black */
+}
+
+/* Make the text in the navbar white */
+.navbar__inner a,
+.navbar__link,
+.navbar__brand {
+  color: #ffffff; /* Make text white */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Change text color to #efd765 on hover */
+.navbar__inner a:hover,
+.navbar__link:hover,
+.navbar__brand:hover {
+  color: #efd765; /* Hover color */
+}
+
+/* Optional: Change the color of active links */
+.navbar__link--active {
+  color: #d2bb2d; /* Active link color */
+}
+
+  /* Customize the hero section background */
+  .hero.hero--primary.heroBanner_src-pages-index-module {
+    background-color: #000000; /* Replace with your desired background color */
+    padding: 4rem 0; /* Add some padding if necessary */
+  }
+  
+  /* Customize the hero title text */
+  .hero__title {
+    color: #ffffff; /* Set text color */
+    font-size: 3rem; /* Adjust font size */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Customize the hero subtitle text */
+  .hero__subtitle {
+    color: #d2d2d2; /* Set subtitle color */
+    font-size: 1.5rem; /* Adjust subtitle font size */
+    text-align: center; /* Center the subtitle */
+  }
+  
+  /* Customize the button inside the hero section */
+  .button.button--secondary.button--lg {
+    background-color: #d2bb2d; /* Button background color */
+    color: #ffffff; /* Button text color */
+    border: none; /* Remove any borders */
+    padding: 1rem 2rem; /* Add padding to the button */
+    text-align: center;
+  }
+  
+  /* Hover effect for the button */
+  .button.button--secondary.button--lg:hover {
+    background-color: #efd765; /* Darker shade on hover */
+  }
+
+  /* Set the default font for the entire site */
+body {
+  font-family: 'Roboto', sans-serif; /* Use Roboto, fallback to sans-serif */
+}
+
+/* Ensure headings, paragraphs, and other elements also use Roboto */
+h1, h2, h3, h4, h5, h6, p, a, .navbar__link {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Change the footer background color */
+footer.footer {
+  background-color: #5a5a5a; /* Set the footer background to #5a5a5a */
+  color: #ffffff; /* Optional: Set the text color to white for contrast */
+}
+
+/* Optional: Change the color of links in the footer */
+footer.footer a {
+  color: #ffffff; /* Set footer link color to white */
+}
+
+/* Optional: Change hover state for footer links */
+footer.footer a:hover {
+  color: #efd765; /* Set a hover color for links */
 }
