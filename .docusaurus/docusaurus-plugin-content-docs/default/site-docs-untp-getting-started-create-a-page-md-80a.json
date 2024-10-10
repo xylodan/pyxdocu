@@ -1,14 +1,14 @@
 {
-  "id": "tutorial-basics/create-a-page",
+  "id": "UNTP_Getting_Started/create-a-page",
   "title": "Create a Page",
   "description": "Add Markdown or React files to src/pages to create a standalone page:",
-  "source": "@site/docs/tutorial-basics/create-a-page.md",
-  "sourceDirName": "tutorial-basics",
-  "slug": "/tutorial-basics/create-a-page",
-  "permalink": "/docs/tutorial-basics/create-a-page",
+  "source": "@site/docs/UNTP_Getting_Started/create-a-page.md",
+  "sourceDirName": "UNTP_Getting_Started",
+  "slug": "/UNTP_Getting_Started/create-a-page",
+  "permalink": "/docs/UNTP_Getting_Started/create-a-page",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/pyx/knowledge-base/tree/main/docs/tutorial-basics/create-a-page.md",
+  "editUrl": "https://github.com/pyx/knowledge-base/tree/main/docs/UNTP_Getting_Started/create-a-page.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -22,6 +22,6 @@
   },
   "next": {
     "title": "Create a Document",
-    "permalink": "/docs/tutorial-basics/create-a-document"
+    "permalink": "/docs/UNTP_Getting_Started/create-a-document"
   }
 }

@@ -4,8 +4,12 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Technical Documents',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: (
+      <a href="https://kb.pyx.io/docs/intro" target="_blank" rel="noopener noreferrer">
+        Technical Documents
+      </a>
+    ),    
+    Svg: require('@site/static/img/laptop-svgrepo-com.svg').default,
     description: (
       <>
         Pyx community forums are here for additional support of your open source
@@ -13,20 +17,28 @@ const FeatureList = [
       </>
     ),
   },
+    
   {
-    title: 'Articles',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: (
+      <a href="https://kb.pyx.io/blog" target="_blank" rel="noopener noreferrer">
+        Articles
+      </a>
+    ),
+    Svg: require('@site/static/img/article-svgrepo-com.svg').default,
     description: (
       <>
         UNTP is open-source software supporting supply chain transparency, scalability, and value. 
         These technical documents guide developers and trust architects in implementing UNTP.
       </>
     ),
-  },
-      
-    {
-    title: 'Forums',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+  },      
+  {
+    title: (
+      <a href="https://forum.pyx.io/" target="_blank" rel="noopener noreferrer">
+        Forums
+      </a>
+    ),
+    Svg: require('@site/static/img/broadcast-svgrepo-com.svg').default,
     description: (
       <>
         Pyx community forums are here for additional support of your open source

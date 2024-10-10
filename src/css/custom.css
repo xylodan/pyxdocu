@@ -116,3 +116,41 @@ footer.footer a {
 footer.footer a:hover {
   color: #efd765; /* Set a hover color for links */
 }
+
+.footer__copyright {
+  color: #929292 !important; /* Replace with your desired color */
+  font-size: 0.8rem; /* Adjust the font size as needed */
+}
+
+/* Style the first column to add the logo */
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures logo on far left, content on right */
+}
+
+/* Add logo to the first column (far left) */
+/* Style the footer to create more space between the logo and the columns */
+.footer__links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* This ensures logo on the far left and content on the right */
+  padding-left: 150px; /* Adds padding to push the content right */
+}
+
+/* Add logo to the first column (far left) */
+.footer__links::before {
+  content: '';
+  display: block;
+  background-image: url('/img/Pyx-primary-rgb-rev.svg'); /* Path to your logo */
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px; /* Adjust width */
+  height: 60px; /* Adjust height */
+  margin-right: 40px; /* Adjust space between the logo and the first column */
+}
+
+/* Optional: Add more space between the columns themselves */
+.footer__links .col {
+  margin-left: 40px; /* Increase the space between columns */
+}

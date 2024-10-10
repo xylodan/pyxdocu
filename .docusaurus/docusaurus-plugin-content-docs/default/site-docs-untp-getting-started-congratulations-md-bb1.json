@@ -1,0 +1,27 @@
+{
+  "id": "UNTP_Getting_Started/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/UNTP_Getting_Started/congratulations.md",
+  "sourceDirName": "UNTP_Getting_Started",
+  "slug": "/UNTP_Getting_Started/congratulations",
+  "permalink": "/docs/UNTP_Getting_Started/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/pyx/knowledge-base/tree/main/docs/UNTP_Getting_Started/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/UNTP_Getting_Started/deploy-your-site"
+  },
+  "next": {
+    "title": "UNTP Advanced",
+    "permalink": "/docs/category/untp-advanced"
+  }
+}

@@ -81,6 +81,10 @@ export default {
             {
               "label": "Tech Docs",
               "to": "/docs/intro"
+            },
+            {
+              "label": "Articles",
+              "to": "/blog"
             }
           ]
         },
@@ -88,29 +92,16 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "label": "Forums",
+              "href": "https://forum.pyx.io/"
             },
             {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
-            },
-            {
-              "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
-            }
-          ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Articles",
-              "to": "/blog"
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/company/pyxglobal/"
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/pyx/knowledge-base"
+              "href": "https://github.com/uncefact/spec-untp"
             }
           ]
         }

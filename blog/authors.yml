@@ -1,23 +1,25 @@
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+
+capell:
+  name: Steve Capell
+  title: Co-Founder, Pyx Global
+  url: https://www.linkedin.com/in/stevecapell/
+  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974be7f0aeed852fb8a_chris-headshot.jpg
+  page: true
+
+gough:
+  name: Chris Gough
+  title: Co-Founder, Pyx Global
+  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974ed89c9029aa5c33c_steve-headshot.jpg
   page: true
   socials:
-    x: yangshunz
-    github: yangshun
+    LinkedIn: https://www.linkedin.com/in/stevecapell/
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+
+zeus:
+  name: Zachary Zeus
+  title: Co-Founder/CEO, Pyx Global
+  url: https://www.linkedin.com/in/zachary-zeus/
+  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a9746aa58491e8571c67_zach-headshot.jpg
+  page: true
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    LinkedIn: https://www.linkedin.com/in/zachary-zeus/

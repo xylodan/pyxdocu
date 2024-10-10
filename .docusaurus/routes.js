@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'b2f'),
+    component: ComponentCreator('/blog', '069'),
     exact: true
   },
   {
@@ -18,28 +18,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/authors/all-sebastien-lorber-articles',
-    component: ComponentCreator('/blog/authors/all-sebastien-lorber-articles', '4a1'),
+    path: '/blog/authors/capell',
+    component: ComponentCreator('/blog/authors/capell', '117'),
     exact: true
   },
   {
-    path: '/blog/authors/yangshun',
-    component: ComponentCreator('/blog/authors/yangshun', 'a68'),
+    path: '/blog/authors/gough',
+    component: ComponentCreator('/blog/authors/gough', '682'),
     exact: true
   },
   {
-    path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '89a'),
-    exact: true
-  },
-  {
-    path: '/blog/long-blog-post',
-    component: ComponentCreator('/blog/long-blog-post', '9ad'),
-    exact: true
-  },
-  {
-    path: '/blog/mdx-blog-post',
-    component: ComponentCreator('/blog/mdx-blog-post', 'e9f'),
+    path: '/blog/authors/zeus',
+    component: ComponentCreator('/blog/authors/zeus', 'b9d'),
     exact: true
   },
   {
@@ -48,28 +38,18 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/docusaurus',
-    component: ComponentCreator('/blog/tags/docusaurus', '704'),
-    exact: true
-  },
-  {
-    path: '/blog/tags/facebook',
-    component: ComponentCreator('/blog/tags/facebook', '858'),
-    exact: true
-  },
-  {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '299'),
+    component: ComponentCreator('/blog/tags/hello', '6c1'),
     exact: true
   },
   {
-    path: '/blog/tags/hola',
-    component: ComponentCreator('/blog/tags/hola', '00d'),
+    path: '/blog/tags/pyx',
+    component: ComponentCreator('/blog/tags/pyx', '71d'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', 'd2b'),
+    component: ComponentCreator('/blog/welcome', '4e6'),
     exact: true
   },
   {
@@ -79,67 +59,31 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '733'),
+    component: ComponentCreator('/docs', 'a0b'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '7e6'),
+        component: ComponentCreator('/docs', '0db'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'ba6'),
+            component: ComponentCreator('/docs', '4b5'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', '20e'),
+                path: '/docs/category/untp-advanced',
+                component: ComponentCreator('/docs/category/untp-advanced', '421'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', '9ad'),
+                path: '/docs/category/untp-getting-started',
+                component: ComponentCreator('/docs/category/untp-getting-started', '94f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -152,6 +96,42 @@ export default [
               {
                 path: '/docs/tutorial-extras/translate-your-site',
                 component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/congratulations',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/congratulations', 'eb1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/create-a-blog-post',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/create-a-blog-post', 'f02'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/create-a-document',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/create-a-document', 'fad'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/create-a-page',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/create-a-page', 'd92'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/deploy-your-site',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/deploy-your-site', 'a68'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/UNTP_Getting_Started/markdown-features',
+                component: ComponentCreator('/docs/UNTP_Getting_Started/markdown-features', '71e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

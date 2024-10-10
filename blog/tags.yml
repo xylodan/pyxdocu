@@ -17,3 +17,14 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+pyx:
+  label: Pyx
+  permalink: /pyx
+  description: Pyx Global
+
+untp:
+  label: UNTP
+  permalink: /untp
+  description: United National Transparency Protocol
+  

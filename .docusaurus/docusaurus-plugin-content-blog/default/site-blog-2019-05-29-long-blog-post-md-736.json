@@ -23,24 +23,25 @@
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Yangshun Tay",
-      "title": "Front End Engineer @ Facebook",
-      "url": "https://github.com/yangshun",
+      "name": "Zachary Zeus",
+      "title": "Co-Founder/CEO, Pyx Global",
+      "url": "https://www.linkedin.com/in/zachary-zeus/",
       "page": {
-        "permalink": "/blog/authors/yangshun"
+        "permalink": "/blog/authors/zeus"
       },
       "socials": {
-        "x": "https://x.com/yangshunz",
-        "github": "https://github.com/yangshun"
+        "LinkedIn": "https://www.linkedin.com/in/zachary-zeus/"
       },
-      "imageURL": "https://github.com/yangshun.png",
-      "key": "yangshun"
+      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a9746aa58491e8571c67_zach-headshot.jpg",
+      "key": "zeus"
     }
   ],
   "frontMatter": {
     "slug": "long-blog-post",
     "title": "Long Blog Post",
-    "authors": "yangshun",
+    "authors": [
+      "zeus"
+    ],
     "tags": [
       "hello",
       "docusaurus"
@@ -50,9 +51,5 @@
   "prevItem": {
     "title": "MDX Blog Post",
     "permalink": "/blog/mdx-blog-post"
-  },
-  "nextItem": {
-    "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
   }
 }

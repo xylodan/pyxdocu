@@ -91,47 +91,38 @@ const config = {
                 label: 'Tech Docs',
                 to: '/docs/intro',
               },
+              {
+                label: 'Articles',
+                to: '/blog',
+              },
             ],
           },
           {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Forums',
+                href: 'https://forum.pyx.io/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Articles',
-                to: '/blog',
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/pyxglobal/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/pyx/knowledge-base',
+                href: 'https://github.com/uncefact/spec-untp',
               },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} PYX Knowledge Base.`,
       },
-      prism: {
+            prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
       colorMode: {
-        defaultMode: 'light',  // Set the default mode to dark
+        defaultMode: 'light',  // Set the default mode to light
         disableSwitch: false, // Allow the user to switch between dark and light modes
         respectPrefersColorScheme: false, // Don't respect the system preferences, always start in dark mode
       },

@@ -1,31 +1,25 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/pyx/knowledge-base/tree/main/blog/2021-08-26-welcome/index.md",
-  "source": "@site/blog/2021-08-26-welcome/index.md",
+  "editUrl": "https://github.com/pyx/knowledge-base/tree/main/blog/2024-10-09-welcome/index.md",
+  "source": "@site/blog/2024-10-09-welcome/index.md",
   "title": "Welcome",
-  "description": "Docusaurus blogging features are powered by the blog plugin.",
-  "date": "2021-08-26T00:00:00.000Z",
+  "description": "Welcome to PYX Articles",
+  "date": "2024-10-09T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
-      "label": "Facebook",
-      "permalink": "/blog/tags/facebook",
-      "description": "Facebook tag description"
+      "label": "Pyx",
+      "permalink": "/blog/tags/pyx",
+      "description": "Pyx Global"
     },
     {
       "inline": false,
       "label": "Hello",
       "permalink": "/blog/tags/hello",
       "description": "Hello tag description"
-    },
-    {
-      "inline": false,
-      "label": "Docusaurus",
-      "permalink": "/blog/tags/docusaurus",
-      "description": "Docusaurus tag description"
     }
   ],
-  "readingTime": 0.465,
+  "readingTime": 1.07,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -73,14 +67,9 @@
       "zeus"
     ],
     "tags": [
-      "facebook",
-      "hello",
-      "docusaurus"
+      "pyx",
+      "hello"
     ]
   },
-  "unlisted": false,
-  "nextItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
-  }
+  "unlisted": false
 }

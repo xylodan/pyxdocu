@@ -1,12 +1,13 @@
-# Handle line endings automatically for text files
+# Set default behavior to automatically normalize line endings
 * text=auto
 
-# Ensure all JavaScript, JSON, CSS, MD, and HTML files use LF
+# Handle specific file types
 *.js text eol=lf
-*.json text eol=lf
 *.css text eol=lf
 *.md text eol=lf
-*.html text eol=lf
-
-# Ensure SVG files use LF
+*.json text eol=lf
 *.svg text eol=lf
+*.yml text eol=lf
+*.lock text eol=lf
+*.gitignore text eol=lf
+

@@ -1,5 +1,5 @@
 {
-  "/blog-b2f": {
+  "/blog-069": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -7,16 +7,7 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "531ed5a0"
       }
     ],
     "__props": "c15d9823"
@@ -39,7 +30,7 @@
     "sidebar": "814f3328",
     "__props": "ef8b811a"
   },
-  "/blog/authors/all-sebastien-lorber-articles-4a1": {
+  "/blog/authors/capell-117": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -49,19 +40,13 @@
     },
     "items": [
       {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "531ed5a0"
       }
     ],
     "sidebar": "814f3328",
-    "__props": "c9c9bef8"
+    "__props": "80fa5f6d"
   },
-  "/blog/authors/yangshun-a68": {
+  "/blog/authors/gough-682": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -71,50 +56,27 @@
     },
     "items": [
       {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
+        "content": "531ed5a0"
       }
     ],
     "sidebar": "814f3328",
-    "__props": "1dea6ca3"
+    "__props": "9eb9b8db"
   },
-  "/blog/first-blog-post-89a": {
-    "__comp": "ccc49370",
+  "/blog/authors/zeus-b9d": {
+    "__comp": "33fc5bb8",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
       "plugin": "36994c47"
     },
+    "items": [
+      {
+        "content": "531ed5a0"
+      }
+    ],
     "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/blog/long-blog-post-9ad": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/blog/mdx-blog-post-e9f": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
+    "__props": "29dfe4ee"
   },
   "/blog/tags-287": {
     "__comp": "01a85c17",
@@ -124,7 +86,7 @@
     "sidebar": "814f3328",
     "__props": "3a2db09e"
   },
-  "/blog/tags/docusaurus-704": {
+  "/blog/tags/hello-6c1": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -132,50 +94,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "__props": "3217192f"
-  },
-  "/blog/tags/facebook-858": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "__props": "e5aefb32"
-  },
-  "/blog/tags/hello-299": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
+        "content": "531ed5a0"
       }
     ],
     "__props": "f82cd581"
   },
-  "/blog/tags/hola-00d": {
+  "/blog/tags/pyx-71d": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -183,12 +107,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "925b3f96"
+        "content": "531ed5a0"
       }
     ],
-    "__props": "5e90a9b3"
+    "__props": "1f15ac56"
   },
-  "/blog/welcome-d2b": {
+  "/blog/welcome-4e6": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -197,7 +121,7 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "d9f32620"
+    "content": "6c79efb3"
   },
   "/markdown-page-3d7": {
     "__comp": "1f391b9e",
@@ -206,54 +130,30 @@
     },
     "content": "393be207"
   },
-  "/docs-733": {
+  "/docs-a0b": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-7e6": {
+  "/docs-0db": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-ba6": {
+  "/docs-4b5": {
     "__comp": "a94703ab"
   },
-  "/docs/category/tutorial---basics-20e": {
+  "/docs/category/untp-advanced-421": {
     "__comp": "14eb3368",
-    "__props": "c8a4e95a"
+    "__props": "a200b468"
   },
-  "/docs/category/tutorial---extras-9ad": {
+  "/docs/category/untp-getting-started-94f": {
     "__comp": "14eb3368",
-    "__props": "6bb166bd"
+    "__props": "c8e21bfe"
   },
   "/docs/intro-61d": {
     "__comp": "17896441",
     "content": "0e384e19"
-  },
-  "/docs/tutorial-basics/congratulations-458": {
-    "__comp": "17896441",
-    "content": "822bd8ab"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-108": {
-    "__comp": "17896441",
-    "content": "533a09ca"
-  },
-  "/docs/tutorial-basics/create-a-document-8fc": {
-    "__comp": "17896441",
-    "content": "1e4232ab"
-  },
-  "/docs/tutorial-basics/create-a-page-951": {
-    "__comp": "17896441",
-    "content": "5c868d36"
-  },
-  "/docs/tutorial-basics/deploy-your-site-4f5": {
-    "__comp": "17896441",
-    "content": "f55d3e7a"
-  },
-  "/docs/tutorial-basics/markdown-features-b05": {
-    "__comp": "17896441",
-    "content": "18c41134"
   },
   "/docs/tutorial-extras/manage-docs-versions-978": {
     "__comp": "17896441",
@@ -262,6 +162,30 @@
   "/docs/tutorial-extras/translate-your-site-f9a": {
     "__comp": "17896441",
     "content": "e44a2883"
+  },
+  "/docs/UNTP_Getting_Started/congratulations-eb1": {
+    "__comp": "17896441",
+    "content": "bb1971b1"
+  },
+  "/docs/UNTP_Getting_Started/create-a-blog-post-f02": {
+    "__comp": "17896441",
+    "content": "a2953c03"
+  },
+  "/docs/UNTP_Getting_Started/create-a-document-fad": {
+    "__comp": "17896441",
+    "content": "eb95189a"
+  },
+  "/docs/UNTP_Getting_Started/create-a-page-d92": {
+    "__comp": "17896441",
+    "content": "80ad5a10"
+  },
+  "/docs/UNTP_Getting_Started/deploy-your-site-a68": {
+    "__comp": "17896441",
+    "content": "711d8d15"
+  },
+  "/docs/UNTP_Getting_Started/markdown-features-71e": {
+    "__comp": "17896441",
+    "content": "83a235d7"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",
