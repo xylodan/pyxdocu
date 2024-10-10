@@ -2,23 +2,20 @@
 capell:
   name: Steve Capell
   title: Co-Founder, Pyx Global
-  url: https://www.linkedin.com/in/stevecapell/
-  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974be7f0aeed852fb8a_chris-headshot.jpg
-  page: true
-
-gough:
-  name: Chris Gough
-  title: Co-Founder, Pyx Global
   image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974ed89c9029aa5c33c_steve-headshot.jpg
   page: true
   socials:
     LinkedIn: https://www.linkedin.com/in/stevecapell/
 
+gough:
+  name: Chris Gough
+  title: Co-Founder, Pyx Global
+  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974be7f0aeed852fb8a_chris-headshot.jpg
+  page: true
 
 zeus:
   name: Zachary Zeus
   title: Co-Founder/CEO, Pyx Global
-  url: https://www.linkedin.com/in/zachary-zeus/
   image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a9746aa58491e8571c67_zach-headshot.jpg
   page: true
   socials:

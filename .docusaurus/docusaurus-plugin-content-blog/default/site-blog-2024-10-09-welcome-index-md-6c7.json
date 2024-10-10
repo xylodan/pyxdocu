@@ -25,11 +25,13 @@
     {
       "name": "Steve Capell",
       "title": "Co-Founder, Pyx Global",
-      "url": "https://www.linkedin.com/in/stevecapell/",
       "page": {
         "permalink": "/blog/authors/capell"
       },
-      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974be7f0aeed852fb8a_chris-headshot.jpg",
+      "socials": {
+        "LinkedIn": "https://www.linkedin.com/in/stevecapell/"
+      },
+      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974ed89c9029aa5c33c_steve-headshot.jpg",
       "key": "capell"
     },
     {
@@ -38,16 +40,12 @@
       "page": {
         "permalink": "/blog/authors/gough"
       },
-      "socials": {
-        "LinkedIn": "https://www.linkedin.com/in/stevecapell/"
-      },
-      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974ed89c9029aa5c33c_steve-headshot.jpg",
+      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974be7f0aeed852fb8a_chris-headshot.jpg",
       "key": "gough"
     },
     {
       "name": "Zachary Zeus",
       "title": "Co-Founder/CEO, Pyx Global",
-      "url": "https://www.linkedin.com/in/zachary-zeus/",
       "page": {
         "permalink": "/blog/authors/zeus"
       },
