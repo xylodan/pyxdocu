@@ -58,7 +58,7 @@
 }
 
 /* Customize the hero section background */
-.hero.hero--primary.heroBanner_src-pages-index-module {
+.hero.hero--primary {
   background-color: #000000; /* Replace with your desired background color */
   padding: 4rem 0; /* Add some padding if necessary */
 }
