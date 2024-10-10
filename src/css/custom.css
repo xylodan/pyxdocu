@@ -57,41 +57,41 @@
   color: #d2bb2d; /* Active link color */
 }
 
-  /* Customize the hero section background */
-  .hero.hero--primary.heroBanner_src-pages-index-module {
-    background-color: #000000; /* Replace with your desired background color */
-    padding: 4rem 0; /* Add some padding if necessary */
-  }
-  
-  /* Customize the hero title text */
-  .hero__title {
-    color: #ffffff; /* Set text color */
-    font-size: 3rem; /* Adjust font size */
-    text-align: center; /* Center the text */
-  }
-  
-  /* Customize the hero subtitle text */
-  .hero__subtitle {
-    color: #d2d2d2; /* Set subtitle color */
-    font-size: 1.5rem; /* Adjust subtitle font size */
-    text-align: center; /* Center the subtitle */
-  }
-  
-  /* Customize the button inside the hero section */
-  .button.button--secondary.button--lg {
-    background-color: #d2bb2d; /* Button background color */
-    color: #ffffff; /* Button text color */
-    border: none; /* Remove any borders */
-    padding: 1rem 2rem; /* Add padding to the button */
-    text-align: center;
-  }
-  
-  /* Hover effect for the button */
-  .button.button--secondary.button--lg:hover {
-    background-color: #efd765; /* Darker shade on hover */
-  }
+/* Customize the hero section background */
+.hero.hero--primary.heroBanner_src-pages-index-module {
+  background-color: #000000; /* Replace with your desired background color */
+  padding: 4rem 0; /* Add some padding if necessary */
+}
 
-  /* Set the default font for the entire site */
+/* Customize the hero title text */
+.hero__title {
+  color: #ffffff; /* Set text color */
+  font-size: 3rem; /* Adjust font size */
+  text-align: center; /* Center the text */
+}
+
+/* Customize the hero subtitle text */
+.hero__subtitle {
+  color: #d2d2d2; /* Set subtitle color */
+  font-size: 1.5rem; /* Adjust subtitle font size */
+  text-align: center; /* Center the subtitle */
+}
+
+/* Customize the button inside the hero section */
+.button.button--secondary.button--lg {
+  background-color: #d2bb2d; /* Button background color */
+  color: #000000; /* Button text color */
+  border: none; /* Remove any borders */
+  padding: 1rem 2rem; /* Add padding to the button */
+  text-align: center;
+}
+
+/* Hover effect for the button */
+.button.button--secondary.button--lg:hover {
+  background-color: #efd765; /* Darker shade on hover */
+}
+
+/* Set the default font for the entire site */
 body {
   font-family: 'Roboto', sans-serif; /* Use Roboto, fallback to sans-serif */
 }
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, p, a, .navbar__link {
 
 /* Change the footer background color */
 footer.footer {
-  background-color: #5a5a5a; /* Set the footer background to #5a5a5a */
+  background-color: #000000; /* Set the footer background to #5a5a5a */
   color: #ffffff; /* Optional: Set the text color to white for contrast */
 }
 
