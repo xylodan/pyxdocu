@@ -6,7 +6,7 @@
 export default {
   "title": "PYX Knowledge Base",
   "tagline": "Technical Documents and Articles",
-  "favicon": "img/pyx-favicon.ico",
+  "favicon": "img/pyx-favicon.svg",
   "url": "https://kb.pyx.io",
   "baseUrl": "/",
   "organizationName": "pyx",
@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/pyx/knowledge-base/tree/main/"
+          "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/pyx/knowledge-base/tree/main/"
+          "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/"
         },
         "theme": {
           "customCss": "./src/css/custom.css"
@@ -40,7 +40,7 @@ export default {
     ]
   ],
   "themeConfig": {
-    "image": "img/docusaurus-social-card.jpg",
+    "image": "img/Pyx-stacked-rgb-rev.jpg",
     "navbar": {
       "title": "PYX Knowledge Base",
       "logo": {
@@ -314,7 +314,7 @@ export default {
     },
     "colorMode": {
       "defaultMode": "light",
-      "disableSwitch": false,
+      "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
     "docs": {

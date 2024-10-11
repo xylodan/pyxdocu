@@ -10,7 +10,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'PYX Knowledge Base',  // Your project title
   tagline: 'Technical Documents and Articles',
-  favicon: 'img/pyx-favicon.ico',
+  favicon: 'img/pyx-favicon.svg',
 
   // Set the production url of your site here
   url: 'https://kb.pyx.io/',  // Your actual site URL
@@ -37,11 +37,11 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/pyx/knowledge-base/tree/main/',
+          editUrl: 'https://github.com/xylodan/pyxdocu/tree/main/',
         },
         blog: {
           showReadingTime: true,
-          editUrl: 'https://github.com/pyx/knowledge-base/tree/main/',
+          editUrl: 'https://github.com/xylodan/pyxdocu/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -53,7 +53,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/Pyx-stacked-rgb-rev.jpg',
       navbar: {
         title: 'PYX Knowledge Base',
         logo: {
@@ -123,7 +123,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'light',  // Set the default mode to light
-        disableSwitch: false, // Allow the user to switch between dark and light modes
+        disableSwitch: true, // Allow the user to switch between dark and light modes
         respectPrefersColorScheme: false, // Don't respect the system preferences, always start in dark mode
       },
     }),
