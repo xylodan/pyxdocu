@@ -41,6 +41,16 @@ export default {
   ],
   "themeConfig": {
     "image": "img/Pyx-stacked-rgb-rev.jpg",
+    "metadata": [
+      {
+        "name": "keywords",
+        "content": "PYX, knowledge base, documentation, articles"
+      },
+      {
+        "name": "description",
+        "content": "PYX Knowledge Base for technical documents and articles."
+      }
+    ],
     "navbar": {
       "title": "PYX Knowledge Base",
       "logo": {
@@ -329,7 +339,6 @@ export default {
         "groupByYear": true
       }
     },
-    "metadata": [],
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3

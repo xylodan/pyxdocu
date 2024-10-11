@@ -39,12 +39,20 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} - Your Knowledge Base for Technical Documentation`}  // Updated title
+      description="The PYX Knowledge Base offers comprehensive technical documentation and articles to support your learning and development."  // Updated description
+    >
+      {/* Optionally add custom meta tags for social media and SEO */}
+      <Head>
+        <meta name="keywords" content="PYX, knowledge base, documentation, technical articles, UNTP" />
+        <meta property="og:title" content="PYX Knowledge Base - Technical Documentation" />
+        <meta property="og:description" content="The PYX Knowledge Base offers comprehensive technical documentation and articles." />
+        <meta property="og:image" content="img/Pyx-stacked-rgb-rev.jpg" />
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
-    </Layout>
+    </Layout>  
   );
 }

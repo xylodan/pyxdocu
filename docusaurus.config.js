@@ -54,6 +54,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       image: 'img/Pyx-stacked-rgb-rev.jpg',
+      metadata: [
+        { name: 'keywords', content: 'PYX, knowledge base, documentation, articles' }, // Keywords for SEO
+        { name: 'description', content: 'PYX Knowledge Base for technical documents and articles.' }, // Description for SEO
+      ],
+
+
       navbar: {
         title: 'PYX Knowledge Base',
         logo: {
