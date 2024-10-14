@@ -4,15 +4,13 @@
  */
 
  .heroBanner {
-  height: 75vh; /* Full screen height */
-  display: flex; /* Use Flexbox for layout */
+  height: 90vh; /* Full screen height */
+  display: flex; /* Flexbox layout */
   align-items: center; /* Center content vertically */
   justify-content: space-between; /* Space between text and image */
   padding: 0; /* Remove padding */
-  background-color: white; /* White background for the banner */
+  background-color: white; /* White background */
   color: black; /* Black text color */
-  text-align: left;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
   margin-top: 0; /* Ensure no margin above the banner */
 }
 
@@ -20,21 +18,26 @@
   width: 50%; /* Text container takes half the width */
   padding: 50px;
   z-index: 1;
-  margin-top: 0; /* Ensure no margin above the container */
+  margin-top: 0;
   font-size: 1rem;
+  display: flex;
+  flex-direction: column; /* Stack text content */
+  justify-content: center; /* Center text content vertically */
+  text-align: left; /* Center the text */
+  margin-left: 40px; /* Add a margin to the left */
 }
 
 .heroImage {
   width: 50%; /* Image container takes half the width */
-  height: 100%; /* Image height fills the entire container */
+  height: 100%; /* Image height fills the container */
   background-image: url('/img/pyx-clockwork-image-p-1080.jpg');
-  background-size: contain; /* Image contained within the div */
+  background-size: contain; /* Contain the image */
   background-position: right center; /* Align image to the right */
   background-repeat: no-repeat;
-  min-height: 300px; /* Minimum height to prevent image from getting too small */
+  min-height: 300px; /* Prevent the image from getting too small */
 }
 
-/* Additional style to ensure no spacing between the image and the navbar */
+/* Additional styles to ensure no spacing between the image and the navbar */
 .header {
   margin-bottom: 0;
   padding-bottom: 0;
@@ -43,20 +46,20 @@
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .heroBanner {
-    flex-direction: row; /* Keep text and image side by side */
-    justify-content: center; /* Center content horizontally */
-    height: auto; /* Adjust height to fit content */
+    flex-direction: column; /* Stack text and image vertically */
+    justify-content: center;
+    height: auto;
   }
 
   .heroContainer,
   .heroImage {
-    width: 50%; /* Keep both the text and image at 50% width */
-    padding: 1rem; /* Adjust padding for smaller screens */
-    font-size: 0.8rem; /* Adjust text size for smaller screens */
+    width: 100%; /* Full width on smaller screens */
+    padding: 1rem;
+    font-size: 0.8rem;
   }
 
   .heroImage {
-    display: none; /* Hide the image on very small screens */
+    display: none; /* Hide the image on small screens */
   }
 }
 
