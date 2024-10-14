@@ -1,105 +1,143 @@
 .feature-item {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 12px; /* Space between the icon and text */
-  text-align: center; /* Center text */
+  align-items: flex-start; /* Align icon and text at the top */
+  justify-content: flex-start;
+  gap: 16px; /* Space between icon and text */
+  text-align: left;
 }
 
 .feature-item a {
-  color: inherit; /* Inherit the current text color */
-  text-decoration: none; /* No underline */
-  font-size: 1rem; /* Adjust font size */
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .featureLink {
-  font-size: 1.5rem; /* Larger text for titles */
-  font-weight: bold; /* Bold for emphasis */
-  color: black; /* Black text */
-  text-decoration: none; /* Remove underline */
-  line-height: 1.2;
-}
-
-.featureLink:hover {
-  text-decoration: underline; /* Add underline on hover */
-}
-
-.icon {
-  width: 24px !important; /* Icon size */
-  height: 24px !important; /* Keep dimensions proportional */
-  margin-right: 14px;
-  align-self: center;
-}
-
-.description {
-  font-size: 0.9rem; /* Smaller font size for the description */
-  color: #555; /* Optional: use a lighter color for the text */
-}
-
-/* Card styles */
-.card {
-  background-color: white; /* Card background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  margin: 1rem; /* Spacing between cards */
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
-  flex: 1 1 calc(33.333% - 2rem); /* Flex basis to keep 3 cards in a row, with some spacing */
-  max-width: calc(33.333% - 2rem); /* Ensure max-width also maintains 3 cards per row */
-}
-
-.card:hover {
-  transform: translateY(-5px); /* Slight lift on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
-}
-
-.cardContent {
-  padding: 1.5rem; /* Padding inside the card */
-}
-
-.featureLink {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
   color: black;
   text-decoration: none;
-  display: inline-block;
-  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: hidden; /* Hide the overflow text */
+  text-overflow: ellipsis; /* Add an ellipsis (...) if the text overflows */
+}
+
+.iconAndText {
+  display: flex;
+  align-items: flex-start; /* Align icon and text at the top */
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align text at the top */
+}
+
+.firstWord, .secondWord {
+  display: block;
+  text-align: left; /* Align each word to the left */
 }
 
 .featureLink:hover {
   text-decoration: underline;
 }
 
-.description {
-  font-size: 1rem; /* Adjust the size of the description text */
-  color: #555; /* Make the description text a bit lighter */
-}
-
-/* Icon styles */
 .icon {
-  width: 40px;
-  height: 40px;
-  margin-right: 0.5rem; /* Space between icon and text */
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+  align-self: flex-start; /* Align icon at the top */
 }
 
-/* Flexbox container for the cards */
+.description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Card styles */
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  flex: 1 1 calc(33.333% - 2rem); /* Maintain 3 cards per row */
+  max-width: calc(33.333% - 2rem); /* Prevent overflow */
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.cardContent {
+  padding: 1.5rem;
+}
+
 .features {
-  display: flex; /* Enable flexbox */
-  flex-wrap: wrap; /* Allow wrapping when necessary */
-  justify-content: space-between; /* Space the items evenly */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Button styling */
+.button.button--secondary.button--lg {
+  background-color: #d2bb2d; /* Yellow button color */
+  color: #000000; /* Button text color */
+  padding: 1rem 2rem; /* Padding inside the button */
+  font-size: 1.2rem; /* Button text size */
+  border-radius: 8px; /* Rounded corners */
+  border: none; /* No border */
+  text-align: center; /* Center the text */
+  transition: background-color 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
+}
+
+.button.button--secondary.button--lg:hover {
+  background-color: #efd765; /* Hover effect */
 }
 
 /* Media query for screens smaller than 768px */
 @media screen and (max-width: 768px) {
   .card {
-    flex: 1 1 calc(50% - 1rem); /* Two cards per row on smaller screens */
-    max-width: calc(50% - 1rem);
+    flex: 1 1 calc(50% - 1rem); /* Two cards per row */
+    max-width: calc(50% - 1rem); /* Fit two cards without overflow */
+  }
+
+  .icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.8rem 1.5rem; /* Reduce padding */
+    font-size: 1rem; /* Reduce font size */
   }
 }
 
 /* Media query for screens smaller than 576px */
 @media screen and (max-width: 576px) {
   .card {
-    flex: 1 1 100%; /* One card per row on very small screens */
-    max-width: 100%;
+    flex: 1 1 100%; /* One card per row */
+    max-width: 100%; /* Full width */
+    margin: 0.5rem; /* Reduce margin on smaller screens */
+  }
+
+  .icon {
+    width: 32px;
+    height: 32px; /* Smaller icon for small screens */
+  }
+
+  .featureLink {
+    font-size: 1.25rem; /* Smaller title text */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Smaller description text */
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.6rem 1rem; /* Further reduce padding */
+    font-size: 0.9rem; /* Reduce font size */
   }
 }

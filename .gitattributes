@@ -1,13 +1,7 @@
-# Set default behavior to automatically normalize line endings
 * text=auto
-
-# Handle specific file types
-*.js text eol=lf
-*.css text eol=lf
-*.md text eol=lf
-*.json text eol=lf
-*.svg text eol=lf
-*.yml text eol=lf
-*.lock text eol=lf
-*.gitignore text eol=lf
-
+*.js text
+*.css text
+*.html text
+*.md text
+*.json text
+.gitattributes text eol=lf

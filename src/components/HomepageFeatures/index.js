@@ -8,8 +8,13 @@ const FeatureList = [
   {
     title: (
       <a href="https://kb.pyx.io/docs/intro" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
-        <IconTech className={styles.icon} alt="Technical Documents Icon" />
-        Technical Documents
+        <div className={styles.iconAndText}>
+          <IconTech className={styles.icon} alt="Technical Documents Icon" />
+          <div className={styles.textContainer}>
+            <span className={styles.firstWord}>Technical</span>
+            <span className={styles.secondWord}>Documents</span>
+          </div>
+        </div>
       </a>
     ),
     description: (
