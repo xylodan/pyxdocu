@@ -11,7 +11,7 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
+      <div className={clsx('container', styles.heroContainer)}>
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
@@ -24,13 +24,9 @@ function HomepageHeader() {
             UNTP Introduction - 5min ⏱️
           </Link>
         </div>
-
-
-        {/* Add the SVG to the hero section */}
-        <div className={styles.heroImage}>
-            <img src="/img/241009pyx-bg.svg" alt="Hero Icon" />
-        </div>
       </div>
+      {/* Hero image background */}
+      <div className={styles.heroImage}></div>
     </header>
   );
 }

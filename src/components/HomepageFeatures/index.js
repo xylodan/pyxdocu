@@ -1,66 +1,62 @@
 import clsx from 'clsx';
-import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import IconTech from '@site/static/img/icon-tech.svg';
+import IconArticles from '@site/static/img/icon-articles.svg';
+import IconForums from '@site/static/img/icon-forums.svg';
 
 const FeatureList = [
   {
     title: (
-      <a href="https://kb.pyx.io/docs/intro" target="_blank" rel="noopener noreferrer">
+      <a href="https://kb.pyx.io/docs/intro" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
+        <IconTech className={styles.icon} alt="Technical Documents Icon" />
         Technical Documents
       </a>
-    ),    
-    Svg: require('@site/static/img/laptop-svgrepo-com.svg').default,
+    ),
     description: (
-      <>
-        Pyx community forums are here for additional support of your open source
-        implementation of UNTP.
-      </>
+      <p className={styles.description}>
+        Pyx community forums are here for additional support of your open-source implementation of UNTP.
+      </p>
     ),
   },
-    
   {
     title: (
-      <a href="https://kb.pyx.io/blog" target="_blank" rel="noopener noreferrer">
+      <a href="https://kb.pyx.io/blog" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
+        <IconArticles className={styles.icon} alt="Articles Icon" />
         Articles
       </a>
     ),
-    Svg: require('@site/static/img/article-svgrepo-com.svg').default,
     description: (
-      <>
-        UNTP is open-source software supporting supply chain transparency, scalability, and value. 
-        These technical documents guide developers and trust architects in implementing UNTP.
-      </>
+      <p className={styles.description}>
+        UNTP is open-source software supporting supply chain transparency, scalability, and value.
+      </p>
     ),
-  },      
+  },
   {
     title: (
-      <a href="https://forum.pyx.io/" target="_blank" rel="noopener noreferrer">
+      <a href="https://forum.pyx.io/" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
+        <IconForums className={styles.icon} alt="Forums Icon" />
         Forums
       </a>
     ),
-    Svg: require('@site/static/img/broadcast-svgrepo-com.svg').default,
     description: (
-      <>
-        Pyx community forums are here for additional support of your open source
-        implementation of UNTP.
-      </>
+      <p className={styles.description}>
+        Pyx community forums are here for additional support of your open-source implementation of UNTP.
+      </p>
     ),
   },
 ];
 
-function Feature({ Svg, image, title, description }) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        {Svg ? (
-          <Svg className={styles.featureSvg} role="img" />
-        ) : (
-          <img src={image} className={styles.featureImg} alt={title} />
-        )}
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
+    <div className={clsx('col col--4', styles.card)}> {/* Added the card class */}
+      <div className={styles.cardContent}> {/* Card content styling */}
+        <div className="text--center">
+          {Svg && <Svg className={styles.featureSvg} role="img" />}
+        </div>
+        <div className="text--center padding-horiz--md">
+          {title}
+          <p>{description}</p>
+        </div>
       </div>
     </div>
   );
@@ -71,8 +67,8 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
       <div className="container">
         <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
+          {FeatureList.map((feature, idx) => (
+            <Feature key={idx} {...feature} />
           ))}
         </div>
       </div>

@@ -41,7 +41,7 @@
 .navbar__inner a,
 .navbar__link,
 .navbar__brand {
-  color: #ffffff; /* Make text white */
+  color: #e6e6e6; /* Make text white */
   transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
@@ -57,38 +57,16 @@
   color: #d2bb2d; /* Active link color */
 }
 
-/* Customize the hero section background */
-.hero.hero--primary {
-  background-color: #000000; /* Replace with your desired background color */
-  padding: 4rem 0; /* Add some padding if necessary */
+/* Reset margin or padding for the navbar */
+nav {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-/* Customize the hero title text */
-.hero__title {
-  color: #ffffff; /* Set text color */
-  font-size: 3rem; /* Adjust font size */
-  text-align: center; /* Center the text */
-}
-
-/* Customize the hero subtitle text */
-.hero__subtitle {
-  color: #d2d2d2; /* Set subtitle color */
-  font-size: 1.5rem; /* Adjust subtitle font size */
-  text-align: center; /* Center the subtitle */
-}
-
-/* Customize the button inside the hero section */
-.button.button--secondary.button--lg {
-  background-color: #d2bb2d; /* Button background color */
-  color: #000000; /* Button text color */
-  border: none; /* Remove any borders */
-  padding: 1rem 2rem; /* Add padding to the button */
-  text-align: center;
-}
-
-/* Hover effect for the button */
-.button.button--secondary.button--lg:hover {
-  background-color: #efd765; /* Darker shade on hover */
+/* Additional style to ensure no spacing between the image and the navbar */
+.header {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 /* Set the default font for the entire site */
@@ -104,12 +82,12 @@ h1, h2, h3, h4, h5, h6, p, a, .navbar__link {
 /* Change the footer background color */
 footer.footer {
   background-color: #000000; /* Set the footer background to #5a5a5a */
-  color: #ffffff; /* Optional: Set the text color to white for contrast */
+  color: #e6e6e6; /* Optional: Set the text color to white for contrast */
 }
 
 /* Optional: Change the color of links in the footer */
 footer.footer a {
-  color: #ffffff; /* Set footer link color to white */
+  color: #e6e6e6; /* Set footer link color to white */
 }
 
 /* Optional: Change hover state for footer links */
@@ -154,3 +132,14 @@ footer.footer a:hover {
 .footer__links .col {
   margin-left: 40px; /* Increase the space between columns */
 }
+
+/* Style the button to match the theme */
+.button.button--secondary.button--lg {
+  background-color: #d2bb2d; /* Yellow background */
+  color: #000000; /* Black text */
+  border: none; /* No border */
+  padding: 1rem 2rem; /* Padding for the button */
+  text-align: center; /* Center the text */
+}
+
+

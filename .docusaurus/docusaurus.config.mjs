@@ -44,11 +44,11 @@ export default {
     "metadata": [
       {
         "name": "keywords",
-        "content": "PYX, knowledge base, documentation, articles"
+        "content": "PYX, knowledge base, documentation, articles, blog, UNTP"
       },
       {
         "name": "description",
-        "content": "PYX Knowledge Base for technical documents and articles."
+        "content": "PYX Knowledge Base for technical documents and articles on UNTP"
       }
     ],
     "navbar": {

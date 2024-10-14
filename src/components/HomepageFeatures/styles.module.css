@@ -1,11 +1,105 @@
-.features {
+.feature-item {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+  justify-content: center;
+  gap: 12px; /* Space between the icon and text */
+  text-align: center; /* Center text */
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.feature-item a {
+  color: inherit; /* Inherit the current text color */
+  text-decoration: none; /* No underline */
+  font-size: 1rem; /* Adjust font size */
+}
+
+.featureLink {
+  font-size: 1.5rem; /* Larger text for titles */
+  font-weight: bold; /* Bold for emphasis */
+  color: black; /* Black text */
+  text-decoration: none; /* Remove underline */
+  line-height: 1.2;
+}
+
+.featureLink:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.icon {
+  width: 24px !important; /* Icon size */
+  height: 24px !important; /* Keep dimensions proportional */
+  margin-right: 14px;
+  align-self: center;
+}
+
+.description {
+  font-size: 0.9rem; /* Smaller font size for the description */
+  color: #555; /* Optional: use a lighter color for the text */
+}
+
+/* Card styles */
+.card {
+  background-color: white; /* Card background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 1rem; /* Spacing between cards */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Smooth hover effect */
+  flex: 1 1 calc(33.333% - 2rem); /* Flex basis to keep 3 cards in a row, with some spacing */
+  max-width: calc(33.333% - 2rem); /* Ensure max-width also maintains 3 cards per row */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+.cardContent {
+  padding: 1.5rem; /* Padding inside the card */
+}
+
+.featureLink {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.featureLink:hover {
+  text-decoration: underline;
+}
+
+.description {
+  font-size: 1rem; /* Adjust the size of the description text */
+  color: #555; /* Make the description text a bit lighter */
+}
+
+/* Icon styles */
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem; /* Space between icon and text */
+}
+
+/* Flexbox container for the cards */
+.features {
+  display: flex; /* Enable flexbox */
+  flex-wrap: wrap; /* Allow wrapping when necessary */
+  justify-content: space-between; /* Space the items evenly */
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 1rem); /* Two cards per row on smaller screens */
+    max-width: calc(50% - 1rem);
+  }
+}
+
+/* Media query for screens smaller than 576px */
+@media screen and (max-width: 576px) {
+  .card {
+    flex: 1 1 100%; /* One card per row on very small screens */
+    max-width: 100%;
+  }
 }
