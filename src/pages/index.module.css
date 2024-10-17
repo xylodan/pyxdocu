@@ -1,77 +1,101 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
- .heroBanner {
-  height: 90vh; /* Full screen height */
-  display: flex; /* Flexbox layout */
-  align-items: center; /* Center content vertically */
-  justify-content: space-between; /* Space between text and image */
-  padding: 0; /* Remove padding */
-  background-color: white; /* White background */
-  color: black; /* Black text color */
-  margin-top: 0; /* Ensure no margin above the banner */
+/* Base styles for larger screens */
+.heroBanner {
+  position: relative;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  background-color: white;
+  color: black;
+  margin: 0;
 }
 
 .heroContainer {
-  width: 50%; /* Text container takes half the width */
-  padding: 50px;
+  width: 40%;
+  padding: 10px;
   z-index: 1;
-  margin-top: 0;
-  font-size: 1rem;
+  margin: 0;
+  font-size: 1vw; /* Make font-size responsive using viewport units */
   display: flex;
-  flex-direction: column; /* Stack text content */
-  justify-content: center; /* Center text content vertically */
-  text-align: left; /* Center the text */
-  margin-left: 40px; /* Add a margin to the left */
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 10%;
 }
 
 .heroImage {
-  width: 50%; /* Image container takes half the width */
-  height: 100%; /* Image height fills the container */
+  width: 60%;
+  height: 100vh;
   background-image: url('/img/pyx-clockwork-image-p-1080.jpg');
-  background-size: contain; /* Contain the image */
-  background-position: right center; /* Align image to the right */
+  background-size: contain;
+  background-position: right center;
   background-repeat: no-repeat;
-  min-height: 300px; /* Prevent the image from getting too small */
+  min-height: 300px;
 }
 
-/* Additional styles to ensure no spacing between the image and the navbar */
 .header {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-/* Media query for screens smaller than 768px */
+/* For medium screens (768px and below) */
 @media screen and (max-width: 768px) {
   .heroBanner {
-    flex-direction: column; /* Stack text and image vertically */
+    flex-direction: column;
     justify-content: center;
     height: auto;
+    text-align: center;
   }
 
-  .heroContainer,
-  .heroImage {
-    width: 100%; /* Full width on smaller screens */
+  .heroContainer {
+    width: 100%; /* Ensure text container takes full width */
     padding: 1rem;
-    font-size: 0.8rem;
+    font-size: 1.5vw;
+    margin-left: 0; /* Remove left margin */
+    text-align: center;
   }
 
   .heroImage {
-    display: none; /* Hide the image on small screens */
+    display: none; /* Hide the background image */
+    width: 0;
+    height: 0;
+  }
+
+  .heroBanner {
+    justify-content: center; /* Center everything */
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.8rem 1.5rem;
+    font-size: 1.5vw;
   }
 }
 
-/* Media query for screens smaller than 576px */
+/* For small screens (576px and below) */
 @media screen and (max-width: 576px) {
+  .heroBanner {
+    background-image: none; /* Ensure no background image */
+    text-align: center;
+  }
+
   .heroContainer {
-    width: 100%; /* Full width for text */
+    width: 100%; /* Full width */
     padding: 1rem;
-    font-size: 0.6rem;
+    font-size: 1.2rem;
+    margin-left: 0;
+    text-align: center;
   }
 
   .heroImage {
-    display: none; /* Hide the image on very small screens */
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.6rem 1rem;
+    font-size: 2rem;
   }
 }

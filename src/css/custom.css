@@ -142,4 +142,94 @@ footer.footer a:hover {
   text-align: center; /* Center the text */
 }
 
+/* Button styling */
+.button.button--secondary.button--lg {
+  background-color: #efd765;
+  color: #000000;
+  padding: 1rem 2rem;
+  font-size: 2vw; /* Use viewport width to adjust button size */
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  transition: background-color 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
+}
 
+.button.button--secondary.button--lg:hover {
+  background-color: #d2bb2d;
+}
+
+.icon {
+  width: 36px;
+  height: 36px;
+}
+
+.iconAndText {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.hero__title {
+  font-size: 3vw;
+  margin: 20 auto; /* Center the title */;
+}
+
+.hero__subtitle {
+  font-size: 2vw;
+  margin: 15 auto; /* Center the subtitle */
+}
+
+
+/* For medium screens (768px and below) */
+@media screen and (max-width: 768px) {
+  .heroBanner {
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 100vw; /* Ensure the banner takes the full viewport width */
+    background-color: #f0f0f0; /* Fake background color or pattern */
+  }
+
+  /* Ensure the text container takes the full width */
+  .heroContainer {
+    width: 100%; /* Full width for the text */
+    padding: 1rem;
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .hero__title {
+    font-size: 4vw;
+    margin: 0 auto; /* Center the title */
+  }
+
+  .hero__subtitle {
+    font-size: 3vw;
+    margin: 0 auto; /* Center the subtitle */
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.8rem 1.5rem;
+    font-size: 2vw;
+  }
+}
+
+/* For small screens (576px and below) */
+@media screen and (max-width: 576px) {
+  .heroContainer {
+    width: 100%; /* Full width for text */
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  .hero__title {
+    font-size: 6vw; /* Further shrink title text */
+  }
+
+  .hero__subtitle {
+    font-size: 4vw; /* Further shrink subtitle text */
+  }
+
+  .button.button--secondary.button--lg {
+    padding: 0.8rem 1.5rem;
+    font-size: 3vw;
+  }
+}

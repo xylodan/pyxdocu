@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "UNTP Introduction",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "title": "UNTP Community",
+  "description": "Let's briefly talk about UNTP and our Pyx Community in less than 5 minutes.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

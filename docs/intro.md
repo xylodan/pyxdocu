@@ -2,46 +2,36 @@
 sidebar_position: 1
 ---
 
-# UNTP Introduction
+# UNTP Community
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's briefly talk about UNTP and our Pyx Community in **less than 5 minutes.**
 
-## Getting Started
+## Our Community is Knowledge Base + Forums
 
-Get started by **creating a new site**.
+What are we trying to achieve in our Internet space?  A vibrant community dedicated to open source solutions to the existential problems that we face.  We are all about sustainability here and we want to create a home for everyone looking to deliver results to meet that goal.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Knowledge Base
 
-### What you'll need
+You are in the Pyx Knowledge Base space right now and you can think of this as a library.
+- Detailed Instructions for developers implementing UNTP.
+- Explanations for what a Trust Architect is and accompanying instructions to help them drive global value chain improvements.
+- Articles by the Pyx Team and Community members sharing best practices and success stories related to their UNTP efforts.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Pyx Forums
 
-## Generate a new site
+If the Knowledge Base is our library, the Forums are the lounge where we gather, discuss and make friends.
+- Interactive discussions with Pyx and Community members on how to solve unique problems not currently covered in our documentation.
+- Feedback on published Pyx instructions as we aim to deliver the most comprehensive set of tools to empower any team to be able to complete their own UNTP implementation.
+- A place where friendships can be made.  What good is a beautiful planet with sustainable practices if we don't create friendships along the way?
 
-Generate a new Docusaurus site using the **classic template**.
+[Visit our Community Forums](http://forum.pyx.io)
 
-The classic template will automatically be added to your project after you run the command:
+## What is UNTP
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+United Nations Transparency Protocol is a technology framework established to create a scalable, interoperable, and sustainable supply chain model to enhance efficiency and transparency.  A key pillar of Pyx solution to UNTP compliance puts a strong emphasis on data sovereignty.  That means the tools we share here are available for all to downloand and modify and apply to their own value chain processes.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+The inefficiency of current models have resulted in shortcomings in verification of credentials and stated environmental claims doing very little to curb the rampant trend of greenwashing, counterfeiting of goods and dishonest claims being made which are hurting our most honest and sustainable supply chain teams.  Pyx solution to UNTP addresses the need for regulatory information to be transparent while recognizing that proprietary information must be protected.  Pyx recognizes that data sovereignty is paramount as we shift to these more sustainable models.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Welcome To Our Digital Home
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Thank you for stopping by and learning more about our UNTP solution.  With the combined resources of our Community Forum and experience in data engineering, we aim to provide the most comprehensive and actionable resource for those looking to implement UNTP while understanding the importance of maintaining data sovereignty.
