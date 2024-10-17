@@ -128,6 +128,13 @@ footer.footer a:hover {
   margin-right: 40px; /* Adjust space between the logo and the first column */
 }
 
+/* Media query for screens smaller than 1000px */
+@media screen and (max-width: 1000px) {
+  .footer__links {
+    padding-left: 20px; /* Reduce padding for smaller screens */
+  }
+}
+
 /* Optional: Add more space between the columns themselves */
 .footer__links .col {
   margin-left: 40px; /* Increase the space between columns */
