@@ -113,7 +113,7 @@ footer.footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between; /* This ensures logo on the far left and content on the right */
-  padding-left: 150px; /* Adds padding to push the content right */
+  padding-left: 50px; /* Adds padding to push the content right */
 }
 
 /* Add logo to the first column (far left) */
@@ -126,13 +126,6 @@ footer.footer a:hover {
   width: 150px; /* Adjust width */
   height: 60px; /* Adjust height */
   margin-right: 40px; /* Adjust space between the logo and the first column */
-}
-
-/* Media query for screens smaller than 1000px */
-@media screen and (max-width: 1000px) {
-  .footer__links {
-    padding-left: 20px; /* Reduce padding for smaller screens */
-  }
 }
 
 /* Optional: Add more space between the columns themselves */
