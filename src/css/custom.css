@@ -37,11 +37,27 @@
   background-color: #000000; /* Set the background to black */
 }
 
-/* Make the text in the navbar white */
+.navbar-sidebar__brand {
+  background-color: #303030;
+}
+
+/* Targeting the navbar toggle icon */
+.navbar__toggle {
+  color: #efd765; /* Set the icon color to a lighter shade */
+  background-color: transparent; /* Ensure the background remains transparent */
+  border: none; /* Remove any borders if needed */
+}
+
+/* If you want to also change the hover color */
+.navbar__toggle:hover {
+  color: #d2bb2d; /* Make the icon even lighter on hover */
+}
+
+/* Make the text in the navbar Pyx Yellow */
 .navbar__inner a,
 .navbar__link,
 .navbar__brand {
-  color: #e6e6e6; /* Make text white */
+  color: #e6e6e6; /* Make text Pyx Gold */
   transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
@@ -113,7 +129,7 @@ footer.footer a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between; /* This ensures logo on the far left and content on the right */
-  padding-left: 50px; /* Adds padding to push the content right */
+  padding-left: 40px; /* Adds padding to push the content right */
 }
 
 /* Add logo to the first column (far left) */
@@ -130,7 +146,7 @@ footer.footer a:hover {
 
 /* Optional: Add more space between the columns themselves */
 .footer__links .col {
-  margin-left: 40px; /* Increase the space between columns */
+  margin-left: 0px; /* Increase the space between columns */
 }
 
 /* Style the button to match the theme */
@@ -147,7 +163,7 @@ footer.footer a:hover {
   background-color: #efd765;
   color: #000000;
   padding: 1rem 2rem;
-  font-size: 2vw; /* Use viewport width to adjust button size */
+  font-size: 1vw; /* Use viewport width to adjust button size */
   border-radius: 8px;
   border: none;
   text-align: center;
@@ -169,15 +185,14 @@ footer.footer a:hover {
 }
 
 .hero__title {
-  font-size: 3vw;
+  font-size: 2vw;
   margin: 20 auto; /* Center the title */;
 }
 
 .hero__subtitle {
-  font-size: 2vw;
+  font-size: 1.5vw;
   margin: 15 auto; /* Center the subtitle */
 }
-
 
 /* For medium screens (768px and below) */
 @media screen and (max-width: 768px) {

@@ -39,24 +39,16 @@
   gap: 8px; /* Smaller gap between the icon and text */
   text-align: center;
   justify-content: center; /* Center the content horizontally */
-}
-
-.textContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Ensure text is centered */
-  justify-content: center; /* Center text */
+  font-size: 3vh;
 }
 
 .icon {
-  width: 48px; /* Set icon size */
-  height: 48px;
-  margin-right: 16px; /* Space between the icon and text */
-  flex-shrink: 0;
+  width: 5vh;
+  height: 5vh;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 2vh;
   color: #555;
   text-align: center; /* Center-align description as well */
 }
