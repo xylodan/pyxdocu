@@ -11,58 +11,58 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "Development/manage-docs-versions",
+              "path": "/docs/Development/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Development/translate-your-site",
+              "path": "/docs/Development/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "id": "Trust_Architecture/congratulations",
+              "path": "/docs/Trust_Architecture/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
+              "id": "Trust_Architecture/create-a-blog-post",
+              "path": "/docs/Trust_Architecture/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/congratulations",
-              "path": "/docs/UNTP_Getting_Started/congratulations",
+              "id": "Trust_Architecture/create-a-document",
+              "path": "/docs/Trust_Architecture/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/create-a-blog-post",
-              "path": "/docs/UNTP_Getting_Started/create-a-blog-post",
+              "id": "Trust_Architecture/create-a-page",
+              "path": "/docs/Trust_Architecture/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/create-a-document",
-              "path": "/docs/UNTP_Getting_Started/create-a-document",
+              "id": "Trust_Architecture/deploy-your-site",
+              "path": "/docs/Trust_Architecture/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/create-a-page",
-              "path": "/docs/UNTP_Getting_Started/create-a-page",
+              "id": "Trust_Architecture/markdown-features",
+              "path": "/docs/Trust_Architecture/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/deploy-your-site",
-              "path": "/docs/UNTP_Getting_Started/deploy-your-site",
+              "id": "/category/trust-architecture",
+              "path": "/docs/category/trust-architecture",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "UNTP_Getting_Started/markdown-features",
-              "path": "/docs/UNTP_Getting_Started/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/untp-getting-started",
-              "path": "/docs/category/untp-getting-started",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/untp-advanced",
-              "path": "/docs/category/untp-advanced",
+              "id": "/category/developers",
+              "path": "/docs/category/developers",
               "sidebar": "tutorialSidebar"
             }
           ],

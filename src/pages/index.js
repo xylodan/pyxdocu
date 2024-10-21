@@ -16,14 +16,18 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-
         <div className={styles.buttons}>
-        <Link
-            className="button button--secondary button--lg" // Referencing your button classes
+          <Link
+            className="button button--secondary button--lg"  // Applying button styles
             to="/docs/intro"
           >
-            UNTP Introduction - 5min ⏱️
-          </Link>
+            UNTP Introduction - 5min
+            <img 
+              src="/img/clock-icon.svg"  // Path to your image
+              alt="Clock Icon" 
+              className={styles.buttonImage}  // CSS class for image styling
+            />
+          </Link>       
         </div>
       </div>
       {/* Hero image background */}

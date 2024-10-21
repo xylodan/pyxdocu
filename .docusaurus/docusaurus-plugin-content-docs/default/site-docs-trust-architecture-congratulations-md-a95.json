@@ -1,0 +1,27 @@
+{
+  "id": "Trust_Architecture/congratulations",
+  "title": "Congratulations!",
+  "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+  "source": "@site/docs/Trust_Architecture/congratulations.md",
+  "sourceDirName": "Trust_Architecture",
+  "slug": "/Trust_Architecture/congratulations",
+  "permalink": "/docs/Trust_Architecture/congratulations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/docs/Trust_Architecture/congratulations.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Trust_Architecture/deploy-your-site"
+  },
+  "next": {
+    "title": "Developers",
+    "permalink": "/docs/category/developers"
+  }
+}

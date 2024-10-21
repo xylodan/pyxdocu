@@ -2,19 +2,19 @@
 sidebar_position: 1
 ---
 
-# UNTP Community
+# PYX UNTP Community
 
-Let's briefly talk about UNTP and our Pyx Community in **less than 5 minutes.**
+Let's briefly talk about UNTP and our Pyx Community.
 
-## Pyx Community - KB + Forum
+## Pyx Community - Knowledge Base + Forum
 
 What are we trying to achieve in our Internet space?  A vibrant community dedicated to open source solutions to the existential problems that we face globally.  We are all about sustainability here.  We want to create a home for everyone looking to deliver results to meet that goal.
 
 ### Knowledge Base
 
-You are in the Pyx Knowledge Base space right now and you can think of this as a library.
-- Detailed Instructions for developers implementing UNTP.
+You are in the Pyx Knowledge Base space right now and you can think of this as the library.
 - Explanations for what a Trust Architect is and accompanying instructions to help them drive global value chain improvements.
+- Detailed Instructions for developers implementing UNTP.
 - Articles by the Pyx Team and Community members sharing best practices and success stories related to their UNTP efforts.
 
 ### Pyx Forums

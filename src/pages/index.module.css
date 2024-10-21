@@ -2,7 +2,6 @@
 .heroBanner {
   position: relative;
   top: 0;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -10,29 +9,33 @@
   background-color: white;
   color: black;
   margin: 0;
+  height: 60vh;
 }
 
 .heroContainer {
-  width: 40%;
-  padding: 10px;
-  z-index: 1;
-  margin: 0;
-  font-size: 1vw; /* Make font-size responsive using viewport units */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 100%;
+  margin-top: 220px;
+  margin-bottom: 220px;
+  padding-bottom: 20px;
   text-align: left;
-  margin-left: 10%;
+  padding-left: 15%;
 }
 
 .heroImage {
-  width: 60%;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background-image: url('/img/pyx-clockwork-image-p-1080.jpg');
   background-size: contain;
   background-position: right center;
   background-repeat: no-repeat;
   min-height: 300px;
+}
+
+.buttonImage {
+  width: 3vh; /* Adjust size to fit the button */
+  height: auto;
+  margin-left: 15px; /* Space between text and image */
+  vertical-align: middle; /* Align image with the text */
 }
 
 .header {
@@ -45,16 +48,14 @@
   .heroBanner {
     flex-direction: column;
     justify-content: center;
-    height: auto;
-    text-align: center;
+    text-align: left;
   }
 
   .heroContainer {
     width: 100%; /* Ensure text container takes full width */
     padding: 1rem;
-    font-size: 1.5vw;
     margin-left: 0; /* Remove left margin */
-    text-align: center;
+    text-align: left;
   }
 
   .heroImage {
@@ -66,36 +67,25 @@
   .heroBanner {
     justify-content: center; /* Center everything */
   }
-
-  .button.button--secondary.button--lg {
-    padding: 0.8rem 1.5rem;
-    font-size: 1.5vw;
-  }
 }
 
 /* For small screens (576px and below) */
 @media screen and (max-width: 576px) {
   .heroBanner {
     background-image: none; /* Ensure no background image */
-    text-align: center;
+    text-align: left;
   }
 
   .heroContainer {
     width: 100%; /* Full width */
     padding: 1rem;
-    font-size: 1.2rem;
     margin-left: 0;
-    text-align: center;
+    text-align: left;
   }
 
   .heroImage {
     display: none;
     width: 0;
     height: 0;
-  }
-
-  .button.button--secondary.button--lg {
-    padding: 0.6rem 1rem;
-    font-size: 2rem;
   }
 }

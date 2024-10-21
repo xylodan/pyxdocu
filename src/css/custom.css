@@ -34,7 +34,7 @@
 /* Global styling of light and dark themes
 /* Make the navbar background black in both light and dark modes */
 .navbar {
-  background-color: #000000; /* Set the background to black */
+  background-color: black; /* Set the background to black */
 }
 
 .navbar-sidebar__brand {
@@ -43,7 +43,7 @@
 
 /* Targeting the navbar toggle icon */
 .navbar__toggle {
-  color: #efd765; /* Set the icon color to a lighter shade */
+  color: #e6e6e6; /* Set the icon color to a lighter shade */
   background-color: transparent; /* Ensure the background remains transparent */
   border: none; /* Remove any borders if needed */
 }
@@ -99,6 +99,7 @@ h1, h2, h3, h4, h5, h6, p, a, .navbar__link {
 footer.footer {
   background-color: #000000; /* Set the footer background to #5a5a5a */
   color: #e6e6e6; /* Optional: Set the text color to white for contrast */
+  padding-top: 40px
 }
 
 /* Optional: Change the color of links in the footer */
@@ -149,24 +150,20 @@ footer.footer a:hover {
   margin-left: 0px; /* Increase the space between columns */
 }
 
-/* Style the button to match the theme */
-.button.button--secondary.button--lg {
-  background-color: #d2bb2d; /* Yellow background */
-  color: #000000; /* Black text */
-  border: none; /* No border */
-  padding: 1rem 2rem; /* Padding for the button */
-  text-align: center; /* Center the text */
-}
-
 /* Button styling */
 .button.button--secondary.button--lg {
   background-color: #efd765;
   color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35vh;
   padding: 1rem 2rem;
-  font-size: 1vw; /* Use viewport width to adjust button size */
+  font-size: 2vh;
   border-radius: 8px;
   border: none;
   text-align: center;
+  border-radius: 50px;
   transition: background-color 0.3s ease, padding 0.3s ease, font-size 0.3s ease;
 }
 
@@ -185,12 +182,12 @@ footer.footer a:hover {
 }
 
 .hero__title {
-  font-size: 2vw;
+  font-size: 4vh;
   margin: 20 auto; /* Center the title */;
 }
 
 .hero__subtitle {
-  font-size: 1.5vw;
+  font-size: 3vh;
   margin: 15 auto; /* Center the subtitle */
 }
 
@@ -198,9 +195,8 @@ footer.footer a:hover {
 @media screen and (max-width: 768px) {
   .heroBanner {
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     height: auto;
-    width: 100vw; /* Ensure the banner takes the full viewport width */
     background-color: #f0f0f0; /* Fake background color or pattern */
   }
 
@@ -208,22 +204,6 @@ footer.footer a:hover {
   .heroContainer {
     width: 100%; /* Full width for the text */
     padding: 1rem;
-    text-align: center; /* Center the text horizontally */
-  }
-
-  .hero__title {
-    font-size: 4vw;
-    margin: 0 auto; /* Center the title */
-  }
-
-  .hero__subtitle {
-    font-size: 3vw;
-    margin: 0 auto; /* Center the subtitle */
-  }
-
-  .button.button--secondary.button--lg {
-    padding: 0.8rem 1.5rem;
-    font-size: 2vw;
   }
 }
 
@@ -233,18 +213,5 @@ footer.footer a:hover {
     width: 100%; /* Full width for text */
     padding: 1rem;
     font-size: 1.2rem;
-  }
-
-  .hero__title {
-    font-size: 6vw; /* Further shrink title text */
-  }
-
-  .hero__subtitle {
-    font-size: 4vw; /* Further shrink subtitle text */
-  }
-
-  .button.button--secondary.button--lg {
-    padding: 0.8rem 1.5rem;
-    font-size: 3vw;
   }
 }
