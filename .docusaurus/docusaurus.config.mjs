@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "PYX Knowledge Base",
+  "title": "Pyx Knowledge Base",
   "tagline": "Technical Documents and Articles",
   "favicon": "img/pyx-favicon.svg",
   "url": "https://kb.pyx.io",
@@ -44,11 +44,11 @@ export default {
     "metadata": [
       {
         "name": "keywords",
-        "content": "PYX, knowledge base, documentation, articles, blog, UNTP"
+        "content": "UNTP, UNCEFACT, UN/CEFACT, Trust Architect, Interoperability, Sustainability, Verifiable Credentials,  Decentralized Identifiers, Sustainable Development Goals, Critical Raw Materials, ESG, SDG, Environment Social Governance, Sustainability, Supply Chain, VC, DID"
       },
       {
         "name": "description",
-        "content": "PYX Knowledge Base for technical documents and articles on UNTP"
+        "content": "PYX Knowledge Base for technical documents and articles on UNTP and Trust Architecture"
       }
     ],
     "navbar": {

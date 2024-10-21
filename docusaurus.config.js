@@ -8,7 +8,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'PYX Knowledge Base',  // Your project title
+  title: 'Pyx Knowledge Base',  // Your project title
   tagline: 'Technical Documents and Articles',
   favicon: 'img/pyx-favicon.svg',
 
@@ -55,8 +55,8 @@ const config = {
     ({
       image: 'img/Pyx-stacked-rgb-rev.jpg',
       metadata: [
-        { name: 'keywords', content: 'PYX, knowledge base, documentation, articles, blog, UNTP' }, // Keywords for SEO
-        { name: 'description', content: 'PYX Knowledge Base for technical documents and articles on UNTP' }, // Description for SEO
+        { name: 'keywords', content: 'UNTP, UNCEFACT, UN/CEFACT, Trust Architect, Interoperability, Sustainability, Verifiable Credentials,  Decentralized Identifiers, Sustainable Development Goals, Critical Raw Materials, ESG, SDG, Environment Social Governance, Sustainability, Supply Chain, VC, DID' }, // Keywords for SEO
+        { name: 'description', content: 'PYX Knowledge Base for technical documents and articles on UNTP and Trust Architecture' }, // Description for SEO
       ],
       navbar: {
         title: 'PYX Knowledge Base',

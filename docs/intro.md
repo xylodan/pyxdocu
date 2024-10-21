@@ -6,9 +6,9 @@ sidebar_position: 1
 
 Let's briefly talk about UNTP and our Pyx Community in **less than 5 minutes.**
 
-## Our Community is Knowledge Base + Forums
+## Pyx Community - KB + Forum
 
-What are we trying to achieve in our Internet space?  A vibrant community dedicated to open source solutions to the existential problems that we face.  We are all about sustainability here and we want to create a home for everyone looking to deliver results to meet that goal.
+What are we trying to achieve in our Internet space?  A vibrant community dedicated to open source solutions to the existential problems that we face globally.  We are all about sustainability here.  We want to create a home for everyone looking to deliver results to meet that goal.
 
 ### Knowledge Base
 
