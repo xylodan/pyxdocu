@@ -1,10 +1,10 @@
 {
   "permalink": "/blog/welcome",
-  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-09-welcome/index.md",
-  "source": "@site/blog/2024-10-09-welcome/index.md",
+  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-23-/index.md",
+  "source": "@site/blog/2024-10-23-/index.md",
   "title": "Welcome",
   "description": "Welcome to PYX Articles",
-  "date": "2024-10-09T00:00:00.000Z",
+  "date": "2024-10-23T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
@@ -70,8 +70,8 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
-    "title": "Pyx Co-Founder Steve Capell Presents UN/CEFACT Recommendation 49",
-    "permalink": "/blog/Steve Capell Presents UN/CEFACT Recommendation 49"
+  "nextItem": {
+    "title": "Welcome",
+    "permalink": "/blog/welcome"
   }
 }

@@ -1,7 +1,7 @@
 {
   "id": "Trust_Architecture/create-a-page",
-  "title": "Trust Architecture Introduction",
-  "description": "Add Markdown or React files to src/pages to create a standalone page:",
+  "title": "create-a-page",
+  "description": "Please note that this content is under development.  It will be revised and improved continuously.  Please visit our forums to give us feedback on how to improve.",
   "source": "@site/docs/Trust_Architecture/create-a-page.md",
   "sourceDirName": "Trust_Architecture",
   "slug": "/Trust_Architecture/create-a-page",

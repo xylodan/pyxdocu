@@ -3,43 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
-    component: ComponentCreator('/blog', '069'),
+    component: ComponentCreator('/blog', '37a'),
     exact: true
   },
   {
@@ -54,7 +19,7 @@ export default [
   },
   {
     path: '/blog/authors/capell',
-    component: ComponentCreator('/blog/authors/capell', '117'),
+    component: ComponentCreator('/blog/authors/capell', '53b'),
     exact: true
   },
   {
@@ -65,6 +30,11 @@ export default [
   {
     path: '/blog/authors/zeus',
     component: ComponentCreator('/blog/authors/zeus', 'b9d'),
+    exact: true
+  },
+  {
+    path: '/blog/Steve Capell Presents UN/CEFACT Recommendation 49',
+    component: ComponentCreator('/blog/Steve Capell Presents UN/CEFACT Recommendation 49', 'ea2'),
     exact: true
   },
   {
@@ -79,7 +49,22 @@ export default [
   },
   {
     path: '/blog/tags/pyx',
-    component: ComponentCreator('/blog/tags/pyx', '71d'),
+    component: ComponentCreator('/blog/tags/pyx', '96d'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/recommendation-49',
+    component: ComponentCreator('/blog/tags/recommendation-49', '82b'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/un-cefact',
+    component: ComponentCreator('/blog/tags/un-cefact', '070'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/untp',
+    component: ComponentCreator('/blog/tags/untp', 'b1c'),
     exact: true
   },
   {

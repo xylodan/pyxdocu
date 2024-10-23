@@ -2,42 +2,11 @@
 sidebar_position: 1
 ---
 
+:::A Work In Progress
+Please note that this content is under development.  It will be revised and improved continuously.  Please visit our [forums](https://forum.pyx.io/) to give us feedback on how to improve.
+:::
+
 # Trust Architecture Introduction
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
-
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
-
-## Create your first React Page
-
-Create a file at `src/pages/my-react-page.js`:
-
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
-
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
-
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+In its simplest form, a Trust Architect is a Process Engineer and a Project Manager in one who connects the software with the process.  The concept of a Trust Architect is a new term that Pyx uses to describe those of us looking to solve the current scalability and transparency weaknesses of the current global supply chain model.  Think of UNTP for the supply chain as what IEEE was for the internet.  IEEE standards made for robust and efficient networks that work beautifully and it's time we do the same for our supply chain.
+More importantly, a Trust Architect is implementing a system that will create a race to the top.
