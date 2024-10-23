@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '37a'),
+    component: ComponentCreator('/blog', 'd78'),
     exact: true
   },
   {
@@ -19,7 +19,7 @@ export default [
   },
   {
     path: '/blog/authors/capell',
-    component: ComponentCreator('/blog/authors/capell', '53b'),
+    component: ComponentCreator('/blog/authors/capell', 'ca5'),
     exact: true
   },
   {
@@ -34,7 +34,7 @@ export default [
   },
   {
     path: '/blog/Steve Capell Presents UN/CEFACT Recommendation 49',
-    component: ComponentCreator('/blog/Steve Capell Presents UN/CEFACT Recommendation 49', 'ea2'),
+    component: ComponentCreator('/blog/Steve Capell Presents UN/CEFACT Recommendation 49', '8a8'),
     exact: true
   },
   {
@@ -49,22 +49,22 @@ export default [
   },
   {
     path: '/blog/tags/pyx',
-    component: ComponentCreator('/blog/tags/pyx', '96d'),
+    component: ComponentCreator('/blog/tags/pyx', '4af'),
     exact: true
   },
   {
     path: '/blog/tags/recommendation-49',
-    component: ComponentCreator('/blog/tags/recommendation-49', '82b'),
+    component: ComponentCreator('/blog/tags/recommendation-49', '394'),
     exact: true
   },
   {
     path: '/blog/tags/un-cefact',
-    component: ComponentCreator('/blog/tags/un-cefact', '070'),
+    component: ComponentCreator('/blog/tags/un-cefact', 'a01'),
     exact: true
   },
   {
     path: '/blog/tags/untp',
-    component: ComponentCreator('/blog/tags/untp', 'b1c'),
+    component: ComponentCreator('/blog/tags/untp', 'a60'),
     exact: true
   },
   {

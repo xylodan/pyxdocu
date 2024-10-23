@@ -1,5 +1,5 @@
 {
-  "/blog-37a": {
+  "/blog-d78": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -7,7 +7,7 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       },
       {
         "content": "531ed5a0"
@@ -33,7 +33,7 @@
     "sidebar": "814f3328",
     "__props": "ef8b811a"
   },
-  "/blog/authors/capell-53b": {
+  "/blog/authors/capell-ca5": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -43,7 +43,7 @@
     },
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       },
       {
         "content": "531ed5a0"
@@ -84,7 +84,7 @@
     "sidebar": "814f3328",
     "__props": "29dfe4ee"
   },
-  "/blog/Steve Capell Presents UN/CEFACT Recommendation 49-ea2": {
+  "/blog/Steve Capell Presents UN/CEFACT Recommendation 49-8a8": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
@@ -93,7 +93,7 @@
       "plugin": "36994c47"
     },
     "sidebar": "814f3328",
-    "content": "50284a00"
+    "content": "19794305"
   },
   "/blog/tags-287": {
     "__comp": "01a85c17",
@@ -116,7 +116,7 @@
     ],
     "__props": "f82cd581"
   },
-  "/blog/tags/pyx-96d": {
+  "/blog/tags/pyx-4af": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -124,7 +124,7 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       },
       {
         "content": "531ed5a0"
@@ -132,7 +132,7 @@
     ],
     "__props": "1f15ac56"
   },
-  "/blog/tags/recommendation-49-82b": {
+  "/blog/tags/recommendation-49-394": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -140,12 +140,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       }
     ],
     "__props": "d1ce1d9a"
   },
-  "/blog/tags/un-cefact-070": {
+  "/blog/tags/un-cefact-a01": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -153,12 +153,12 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       }
     ],
     "__props": "e4ee022d"
   },
-  "/blog/tags/untp-b1c": {
+  "/blog/tags/untp-a60": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -166,7 +166,7 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "b9501658"
+        "content": "c36e66e0"
       }
     ],
     "__props": "8cf9489a"
