@@ -1,6 +1,6 @@
 {
   "id": "Trust_Architecture/deploy-your-site",
-  "title": "Deploy your site",
+  "title": "Deploy Your Site",
   "description": "Docusaurus is a static-site-generator (also called Jamstack).",
   "source": "@site/docs/Trust_Architecture/deploy-your-site.md",
   "sourceDirName": "Trust_Architecture",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Markdown Features",
-    "permalink": "/docs/Trust_Architecture/markdown-features"
+    "title": "Create a Blog Post",
+    "permalink": "/docs/Trust_Architecture/create-a-blog-post"
   },
   "next": {
-    "title": "Congratulations!",
-    "permalink": "/docs/Trust_Architecture/congratulations"
+    "title": "Developers",
+    "permalink": "/docs/category/developers"
   }
 }

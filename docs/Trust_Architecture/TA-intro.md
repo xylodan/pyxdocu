@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Developers Introduction
+# Trust Architecture Introduction
 import Admonition from '@theme/Admonition';
 
 <Admonition type="note" title="Work In Progress">

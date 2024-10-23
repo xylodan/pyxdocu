@@ -1,7 +1,7 @@
 {
   "id": "Development/manage-docs-versions",
-  "title": "Manage Docs Versions",
-  "description": "Docusaurus can manage multiple versions of your docs.",
+  "title": "Developers Introduction",
+  "description": "Please note that this content is under development. It will be revised and improved continuously. Please visit our forums to give us feedback on how to improve.",
   "source": "@site/docs/Development/manage-docs-versions.md",
   "sourceDirName": "Development",
   "slug": "/Development/manage-docs-versions",
@@ -19,9 +19,5 @@
   "previous": {
     "title": "Developers",
     "permalink": "/docs/category/developers"
-  },
-  "next": {
-    "title": "Translate your site",
-    "permalink": "/docs/Development/translate-your-site"
   }
 }

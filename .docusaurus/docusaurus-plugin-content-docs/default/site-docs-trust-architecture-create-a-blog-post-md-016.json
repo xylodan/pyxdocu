@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Create a Document",
-    "permalink": "/docs/Trust_Architecture/create-a-document"
+    "title": "Trust Architecture Introduction",
+    "permalink": "/docs/Trust_Architecture/TA-intro"
   },
   "next": {
-    "title": "Markdown Features",
-    "permalink": "/docs/Trust_Architecture/markdown-features"
+    "title": "Developers",
+    "permalink": "/docs/category/developers"
   }
 }

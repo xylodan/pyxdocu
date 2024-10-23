@@ -27,4 +27,14 @@ untp:
   label: UNTP
   permalink: /untp
   description: United National Transparency Protocol
-  
+
+UN/CEFACT:
+  label: UNCEFACT
+  permalink: /uncefact
+  description: United Nations Centre for Trade Facilitation and Electronic Business
+
+Recommendation 49:
+  label: Recommendation 49
+  permalink: /recommenation-49
+  description: Recommendation 49
+    

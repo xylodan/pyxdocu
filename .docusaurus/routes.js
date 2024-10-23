@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog', 'd78'),
     exact: true
@@ -53,13 +88,13 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/recommendation-49',
-    component: ComponentCreator('/blog/tags/recommendation-49', '394'),
+    path: '/blog/tags/recommenation-49',
+    component: ComponentCreator('/blog/tags/recommenation-49', '50f'),
     exact: true
   },
   {
-    path: '/blog/tags/un-cefact',
-    component: ComponentCreator('/blog/tags/un-cefact', 'a01'),
+    path: '/blog/tags/uncefact',
+    component: ComponentCreator('/blog/tags/uncefact', '378'),
     exact: true
   },
   {
@@ -79,15 +114,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'c59'),
+    component: ComponentCreator('/docs', 'b1c'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2d2'),
+        component: ComponentCreator('/docs', 'f0e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '32c'),
+            component: ComponentCreator('/docs', '35e'),
             routes: [
               {
                 path: '/docs/category/developers',
@@ -108,50 +143,14 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Development/translate-your-site',
-                component: ComponentCreator('/docs/Development/translate-your-site', 'a4a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
                 path: '/docs/intro',
                 component: ComponentCreator('/docs/intro', '61d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/Trust_Architecture/congratulations',
-                component: ComponentCreator('/docs/Trust_Architecture/congratulations', 'bf8'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Trust_Architecture/create-a-blog-post',
-                component: ComponentCreator('/docs/Trust_Architecture/create-a-blog-post', '142'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Trust_Architecture/create-a-document',
-                component: ComponentCreator('/docs/Trust_Architecture/create-a-document', '40a'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Trust_Architecture/create-a-page',
-                component: ComponentCreator('/docs/Trust_Architecture/create-a-page', '91d'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Trust_Architecture/deploy-your-site',
-                component: ComponentCreator('/docs/Trust_Architecture/deploy-your-site', '455'),
-                exact: true,
-                sidebar: "tutorialSidebar"
-              },
-              {
-                path: '/docs/Trust_Architecture/markdown-features',
-                component: ComponentCreator('/docs/Trust_Architecture/markdown-features', 'eb7'),
+                path: '/docs/Trust_Architecture/TA-intro',
+                component: ComponentCreator('/docs/Trust_Architecture/TA-intro', '32a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

@@ -17,8 +17,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "create-a-page",
-    "permalink": "/docs/Trust_Architecture/create-a-page"
+    "title": "Trust Architecture Introduction",
+    "permalink": "/docs/Trust_Architecture/TA-intro"
   },
   "next": {
     "title": "Create a Blog Post",

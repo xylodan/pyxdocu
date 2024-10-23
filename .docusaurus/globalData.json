@@ -16,43 +16,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Development/translate-your-site",
-              "path": "/docs/Development/translate-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Trust_Architecture/congratulations",
-              "path": "/docs/Trust_Architecture/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Trust_Architecture/create-a-blog-post",
-              "path": "/docs/Trust_Architecture/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Trust_Architecture/create-a-document",
-              "path": "/docs/Trust_Architecture/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Trust_Architecture/create-a-page",
-              "path": "/docs/Trust_Architecture/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Trust_Architecture/deploy-your-site",
-              "path": "/docs/Trust_Architecture/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Trust_Architecture/markdown-features",
-              "path": "/docs/Trust_Architecture/markdown-features",
+              "id": "Trust_Architecture/TA-intro",
+              "path": "/docs/Trust_Architecture/TA-intro",
               "sidebar": "tutorialSidebar"
             },
             {

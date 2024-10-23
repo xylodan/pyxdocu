@@ -13,19 +13,22 @@
       "description": "Pyx Global"
     },
     {
-      "inline": true,
+      "inline": false,
       "label": "UNTP",
-      "permalink": "/blog/tags/untp"
+      "permalink": "/blog/tags/untp",
+      "description": "United National Transparency Protocol"
     },
     {
-      "inline": true,
-      "label": "UN/CEFACT",
-      "permalink": "/blog/tags/un-cefact"
+      "inline": false,
+      "label": "UNCEFACT",
+      "permalink": "/blog/tags/uncefact",
+      "description": "United Nations Centre for Trade Facilitation and Electronic Business"
     },
     {
-      "inline": true,
+      "inline": false,
       "label": "Recommendation 49",
-      "permalink": "/blog/tags/recommendation-49"
+      "permalink": "/blog/tags/recommenation-49",
+      "description": "Recommendation 49"
     }
   ],
   "readingTime": 1.035,
@@ -52,7 +55,7 @@
     ],
     "tags": [
       "pyx",
-      "UNTP",
+      "untp",
       "UN/CEFACT",
       "Recommendation 49"
     ]
