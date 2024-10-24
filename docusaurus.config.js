@@ -83,6 +83,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            href: 'https://www.pyx.io/',
+            label: 'Pyx Global',
+            position: 'right',
+          },
         ],
       },
       footer: {

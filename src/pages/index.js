@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"  // Applying button styles
             to="/docs/intro"
           >
-            UNTP Introduction - 5min
+            Pyx Introduction - 5min
             <img 
               src="/img/clock-icon.svg"  // Path to your image
               alt="Clock Icon" 

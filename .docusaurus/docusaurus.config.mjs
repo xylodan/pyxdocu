@@ -78,6 +78,11 @@ export default {
           "href": "https://github.com/uncefact/spec-untp",
           "label": "GitHub",
           "position": "right"
+        },
+        {
+          "href": "https://www.pyx.io/",
+          "label": "Pyx Global",
+          "position": "right"
         }
       ],
       "hideOnScroll": false

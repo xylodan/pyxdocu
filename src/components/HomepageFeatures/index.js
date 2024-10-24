@@ -17,7 +17,7 @@ const FeatureList = [
     ),
     description: (
       <p className={styles.description}>
-        Technical documents for developers and trust architects ipmlementing a UNTP solution.
+        Technical documents for developers and trust architects implementing a UNTP solution.
       </p>
     ),
   },
