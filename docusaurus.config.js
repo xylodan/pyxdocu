@@ -30,6 +30,16 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-755PEE1175', // Replace with your Measurement ID
+        anonymizeIP: true,       // Optional: Anonymizes the user's IP address
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -85,7 +95,7 @@ const config = {
           },
           {
             href: 'https://www.pyx.io/',
-            label: 'Pyx Global',
+            label: 'Pyx Home',
             position: 'right',
           },
         ],

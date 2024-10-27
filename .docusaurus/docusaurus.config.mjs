@@ -21,6 +21,15 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "plugins": [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        "trackingID": "G-755PEE1175",
+        "anonymizeIP": true
+      }
+    ]
+  ],
   "presets": [
     [
       "classic",
@@ -81,7 +90,7 @@ export default {
         },
         {
           "href": "https://www.pyx.io/",
-          "label": "Pyx Global",
+          "label": "Pyx Home",
           "position": "right"
         }
       ],
@@ -369,7 +378,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "headTags": [],
