@@ -17,6 +17,7 @@ zeus:
   name: Zachary Zeus
   title: Co-Founder/CEO, Pyx Global
   image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a9746aa58491e8571c67_zach-headshot.jpg
+  additionalImage: "/img/Pyx-community-member-badge-black-sq.jpg" # New additional image field
   page: true
   socials:
     LinkedIn: https://www.linkedin.com/in/zachary-zeus/
