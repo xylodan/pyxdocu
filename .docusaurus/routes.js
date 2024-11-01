@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'd78'),
+    component: ComponentCreator('/blog', 'c89'),
     exact: true
   },
   {
@@ -43,13 +43,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/extensions',
+    component: ComponentCreator('/blog/tags/extensions', '4fc'),
+    exact: true
+  },
+  {
     path: '/blog/tags/hello',
     component: ComponentCreator('/blog/tags/hello', '6c1'),
     exact: true
   },
   {
     path: '/blog/tags/pyx',
-    component: ComponentCreator('/blog/tags/pyx', '4af'),
+    component: ComponentCreator('/blog/tags/pyx', 'f0b'),
     exact: true
   },
   {
@@ -59,12 +64,17 @@ export default [
   },
   {
     path: '/blog/tags/uncefact',
-    component: ComponentCreator('/blog/tags/uncefact', '378'),
+    component: ComponentCreator('/blog/tags/uncefact', '277'),
     exact: true
   },
   {
     path: '/blog/tags/untp',
-    component: ComponentCreator('/blog/tags/untp', 'a60'),
+    component: ComponentCreator('/blog/tags/untp', '7c1'),
+    exact: true
+  },
+  {
+    path: '/blog/UNTP 2024 Session 21 Achievements',
+    component: ComponentCreator('/blog/UNTP 2024 Session 21 Achievements', 'c04'),
     exact: true
   },
   {

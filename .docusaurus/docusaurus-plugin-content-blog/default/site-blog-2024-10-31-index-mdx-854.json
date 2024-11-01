@@ -1,10 +1,10 @@
 {
   "permalink": "/blog/Steve Capell Presents UN/CEFACT Recommendation 49",
-  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-23-Capell-49/index.mdx",
-  "source": "@site/blog/2024-10-23-Capell-49/index.mdx",
+  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-31-/index.mdx",
+  "source": "@site/blog/2024-10-31-/index.mdx",
   "title": "Pyx Co-Founder Steve Capell Presents UN/CEFACT Recommendation 49",
   "description": "Pyx Co-Founder Steve Capell Presents UN/CEFACT Recommendation 49",
-  "date": "2024-10-23T00:00:00.000Z",
+  "date": "2024-10-31T00:00:00.000Z",
   "tags": [
     {
       "inline": false,
@@ -61,12 +61,8 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
-    "title": "UNTP 2024 Session 21 Achievements",
-    "permalink": "/blog/UNTP 2024 Session 21 Achievements"
-  },
   "nextItem": {
-    "title": "Welcome",
-    "permalink": "/blog/welcome"
+    "title": "Pyx Co-Founder Steve Capell Presents UN/CEFACT Recommendation 49",
+    "permalink": "/blog/Steve Capell Presents UN/CEFACT Recommendation 49"
   }
 }

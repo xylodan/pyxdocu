@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/UNTP 2024 Session 21 Achievements",
+  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-31-session-21/index.mdx",
+  "source": "@site/blog/2024-10-31-session-21/index.mdx",
+  "title": "UNTP 2024 Session 21 Achievements",
+  "description": "UNTP 2024 Session 21 Achievements",
+  "date": "2024-10-31T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": false,
+      "label": "Pyx",
+      "permalink": "/blog/tags/pyx",
+      "description": "Pyx Global"
+    },
+    {
+      "inline": false,
+      "label": "UNTP",
+      "permalink": "/blog/tags/untp",
+      "description": "United National Transparency Protocol"
+    },
+    {
+      "inline": false,
+      "label": "UNCEFACT",
+      "permalink": "/blog/tags/uncefact",
+      "description": "United Nations Centre for Trade Facilitation and Electronic Business"
+    },
+    {
+      "inline": true,
+      "label": "extensions",
+      "permalink": "/blog/tags/extensions"
+    }
+  ],
+  "readingTime": 2.155,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Pyx Global",
+      "title": "Pyx Global Communications",
+      "page": null,
+      "socials": {
+        "LinkedIn": "https://www.linkedin.com/company/pyxglobal/"
+      },
+      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65c88dcd8e01ed41a9a13e51_pyx-logo-rev.svg",
+      "key": "pyx"
+    }
+  ],
+  "frontMatter": {
+    "slug": "UNTP 2024 Session 21 Achievements",
+    "title": "UNTP 2024 Session 21 Achievements",
+    "authors": [
+      "pyx"
+    ],
+    "tags": [
+      "pyx",
+      "untp",
+      "UN/CEFACT",
+      "extensions"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Pyx Co-Founder Steve Capell Presents UN/CEFACT Recommendation 49",
+    "permalink": "/blog/Steve Capell Presents UN/CEFACT Recommendation 49"
+  }
+}

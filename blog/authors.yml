@@ -21,3 +21,11 @@ zeus:
   page: true
   socials:
     LinkedIn: https://www.linkedin.com/in/zachary-zeus/
+
+pyx:
+  name: Pyx Global
+  title: Pyx Global Communications
+  image_url: https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65c88dcd8e01ed41a9a13e51_pyx-logo-rev.svg
+  page: false
+  socials:
+    LinkedIn: https://www.linkedin.com/company/pyxglobal/
