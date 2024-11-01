@@ -13,6 +13,7 @@ export default {
   "projectName": "pyxdocu",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
+  "onBrokenAnchors": "warn",
   "i18n": {
     "defaultLocale": "en",
     "locales": [
@@ -372,7 +373,6 @@ export default {
     },
     "experimental_router": "browser"
   },
-  "onBrokenAnchors": "warn",
   "onDuplicateRoutes": "warn",
   "staticDirectories": [
     "static"

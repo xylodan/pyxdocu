@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/UNTP 2024 Session 21 Achievements",
+  "permalink": "/blog/untp-2024-session-21-achievements",
   "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-10-31-session-21/index.mdx",
   "source": "@site/blog/2024-10-31-session-21/index.mdx",
   "title": "UNTP 2024 Session 21 Achievements",
@@ -25,12 +25,13 @@
       "description": "United Nations Centre for Trade Facilitation and Electronic Business"
     },
     {
-      "inline": true,
-      "label": "extensions",
-      "permalink": "/blog/tags/extensions"
+      "inline": false,
+      "label": "Extensions",
+      "permalink": "/blog/tags/extensions",
+      "description": "UNTP Extensions"
     }
   ],
-  "readingTime": 2.155,
+  "readingTime": 2.18,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -45,7 +46,7 @@
     }
   ],
   "frontMatter": {
-    "slug": "UNTP 2024 Session 21 Achievements",
+    "slug": "untp-2024-session-21-achievements",
     "title": "UNTP 2024 Session 21 Achievements",
     "authors": [
       "pyx"
@@ -54,7 +55,7 @@
       "pyx",
       "untp",
       "UN/CEFACT",
-      "extensions"
+      "Extensions"
     ]
   },
   "unlisted": false,

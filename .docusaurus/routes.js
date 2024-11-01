@@ -73,8 +73,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/UNTP 2024 Session 21 Achievements',
-    component: ComponentCreator('/blog/UNTP 2024 Session 21 Achievements', 'c04'),
+    path: '/blog/untp-2024-session-21-achievements',
+    component: ComponentCreator('/blog/untp-2024-session-21-achievements', 'd4f'),
     exact: true
   },
   {
