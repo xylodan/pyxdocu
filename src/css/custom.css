@@ -73,9 +73,8 @@
   color: #d2bb2d; /* Active link color */
 }
 
-/* Remove the arrows from navbar items */
-/* Remove external link icons from navbar links */
-.iconExternalLink_node_modules-\@docusaurus-theme-classic-lib-theme-Icon-ExternalLink-styles-module {
+/* More generalized selector to remove external link icons from navbar links */
+[class*="iconExternalLink"] {
   display: none !important;
 }
 
