@@ -1,7 +1,7 @@
 {
   "id": "intro",
-  "title": "PYX UNTP Community",
-  "description": "Let's briefly talk about UNTP and our Pyx Community.",
+  "title": "Welcome to the Pyx Community",
+  "description": "Join us in revolutionizing global supply chains through the United Nations Transparency Protocol (UNTP). Our community is the nexus where innovation meets sustainability, driving profitability for forward-thinking businesses.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",

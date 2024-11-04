@@ -2,36 +2,48 @@
 sidebar_position: 1
 ---
 
-# PYX UNTP Community
+# Welcome to the Pyx Community
 
-Let's briefly talk about UNTP and our Pyx Community.
+Join us in revolutionizing global supply chains through the United Nations Transparency Protocol (UNTP). Our community is the nexus where innovation meets sustainability, driving profitability for forward-thinking businesses.<a href="7"/>
 
-## Pyx Community - Knowledge Base + Forum
+## Pyx Community = You + Knowledge Base + Forum {#pyx-community}
 
-What are we trying to achieve in our Internet space?  A vibrant community dedicated to open source solutions to the existential problems that we face globally.  We are all about sustainability here.  We want to create a home for everyone looking to deliver results to meet that goal.
+We're building a collaborative ecosystem of industry leaders, developers, and sustainability champions. Through open-source tools and shared expertise, we're creating a more transparent, efficient, and interoperable global supply chain model that most industries can implement independently by using our free resources.<a href="9"/>
 
-### Knowledge Base
+## Understanding Trust Architecture and UNTP {#understanding-trust-architecture}
 
-You are in the Pyx Knowledge Base space right now and you can think of this as the library.
-- Explanations for what a Trust Architect is and accompanying instructions to help them drive global value chain improvements.
-- Detailed Instructions for developers implementing UNTP.
-- Articles by the Pyx Team and Community members sharing best practices and success stories related to their UNTP efforts.
+Trust Architecture is our framework for aligning industry supply chains with UNTP standards. It's driven by Trust Architects—multidisciplinary professionals combining project management, process engineering, and software development skills. For some people, like us here at Pyx, Trust Architecture is all we do. More broadly, people in various roles across organizations and industry ecosystems will emerge as Trust Architects, whether they adopt this title or not. Scalability and sustainability benefit every person in our economy.<a href="11"/>
 
-### Pyx Forums
+UNTP, developed by the United Nations Economic Commission for Europe (UNECE), sets the standard for digital communication across diverse supply chains. Think of it as the IEEE of supply chain management - enabling seamless interaction across different systems and platforms while prioritizing transparency and efficiency.<a href="12"/>
 
-If the Knowledge Base is our library, the Forums are the lounge where we gather, discuss and make friends.
-- Interactive discussions with Pyx and Community members on how to solve unique problems not currently covered in our documentation.
-- Feedback on published Pyx instructions as we aim to deliver the most comprehensive set of tools to empower any team to be able to complete their own UNTP implementation.
-- A place where friendships can be made.  What good is a beautiful planet with sustainable practices if we don't create friendships along the way?
+Pyx goes beyond UNTP compliance, ensuring your data sovereignty. We facilitate faster, more efficient data sharing while protecting your proprietary information.<a href="13"/>
 
-[Visit our Community Forums](http://forum.pyx.io)
+## Our Community Resources {#community-resources}
 
-## What is UNTP
+### Knowledge Base {#knowledge-base}
 
-United Nations Transparency Protocol is a technology framework established to create a scalable, interoperable, and sustainable supply chain model to enhance efficiency and transparency.  A key pillar of Pyx solution to UNTP compliance puts a strong emphasis on data sovereignty.  That means the tools we share here are available for all to downloand and modify and apply to their own value chain processes.
+Your digital library for Trust Architecture:
 
-The inefficiency of current models have resulted in shortcomings in verification of credentials and the ability to get away with dishonesty related to stated environmental claims.  This leads to the rampant trend of greenwashing, counterfeiting of goods and dishonest claims being made which are hurting our most reputable and sustainable supply chain teams.  Pyx solution to UNTP addresses the need for regulatory information to be transparent while recognizing that proprietary information must be protected.  Pyx recognizes that data sovereignty is paramount as we shift to these more sustainable models where transparency is applied to the information that is required while protecting proprietary data.
+- Comprehensive UNTP implementation guides
+- Trust Architecture roadmaps
+- Best practices and success stories from the Pyx community<a href="16"/><a href="17"/><a href="18"/><a href="19"/>
 
-## Welcome To Our Digital Home
+### Pyx Forums {#pyx-forums}
 
-Thank you for stopping by and learning more about our UNTP solution.  With the combined resources of our Community Forum and experience in data engineering, we aim to provide the most comprehensive and actionable resource for those looking to implement UNTP while understanding the importance of maintaining data sovereignty.
+Our virtual meeting space:
+
+- Collaborative problem-solving
+- Feedback on Pyx tools and documentation
+- Networking with like-minded professionals<a href="21"/><a href="22"/><a href="23"/><a href="24"/>
+
+[Join the Conversation in Our Community Forums](http://forum.pyx.io/)<a href="25"/>
+
+## Creating a Race to the Top {#race-to-the-top}
+
+Current supply chain models fall short in credential verification, leading to greenwashing and fraudulent claims. Pyx's UNTP solution balances transparency with data protection, giving honest businesses the competitive edge they deserve.<a href="27"/>
+
+Recent findings show that 40% of companies' environmental claims are exaggerated or deceptive. Pyx aims to empower the 60% of businesses already operating ethically, increasing their market share and creating a more sustainable economy.<a href="28"/>
+
+## Welcome to Our Digital Home {#welcome-digital-home}
+
+Thank you for exploring our UNTP solution. Leveraging our community's collective expertise and our robust data engineering capabilities, we offer comprehensive resources for UNTP implementation while prioritizing data sovereignty. Join us in shaping a more transparent, sustainable future for global trade.<a href="30"/>

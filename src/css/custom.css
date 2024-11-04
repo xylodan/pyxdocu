@@ -74,7 +74,7 @@
 }
 
 /* More generalized selector to remove external link icons from navbar links */
-[class*="iconExternalLink"] {
+.navbar__item [class*="iconExternalLink"] {
   display: none !important;
 }
 
