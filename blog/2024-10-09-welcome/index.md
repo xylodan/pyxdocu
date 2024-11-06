@@ -9,11 +9,11 @@ tags: [pyx, hello]
 
 Dear Trust Architects and UNTP Enthusiasts,
 
-We are thrilled to welcome you to the PYX Articles section, a hub of knowledge and insights dedicated to the United Nations Transparency Protocol (UNTP) and its transformative impact on global trade transparency and sustainability.
+We are thrilled to welcome you to the PYX Articles section, a hub for news, knowledge and insights dedicated to advances in global trade transparency and sustainability, including the United Nations Transparency Protocol (UNTP) and its transformative impact.
 <!-- truncate -->
 ### Our Vision
 
-At PYX, we believe in the power of transparency to revolutionize supply chains and foster trust across industries. Our articles aim to provide you with valuable information, practical insights, and thought-provoking discussions on implementing UNTP and navigating the future of digital trust.
+At PYX, we believe in the power of transparency to revolutionise supply chains and foster trust across industries. Our articles aim to provide you with valuable information and practical insights to instigate thought-provoking discussions on implementing UNTP and navigating the future of digital trust.
 
 ### What You'll Find Here
 
@@ -21,6 +21,8 @@ At PYX, we believe in the power of transparency to revolutionize supply chains a
 - Case studies showcasing successful UNTP adoption
 - Expert opinions on the latest developments in supply chain transparency
 - Insights on the intersection of technology, trade, and sustainability
+- News regarding efforts and advances in global supply chain transparency
+- Pyx News and Updates
 
 ### Join the Conversation
 
