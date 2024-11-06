@@ -17,7 +17,7 @@ const FeatureList = [
     ),
     description: (
       <p className={styles.description}>
-        Technical documents for developers and trust architects implementing a UNTP solution.
+        Technical documents for developers and trust architects implementing UNTP.
       </p>
     ),
   },
@@ -32,7 +32,7 @@ const FeatureList = [
     ),
     description: (
       <p className={styles.description}>
-        UNTP is open-source software supporting supply chain transparency, scalability, and value.
+        News and views on the latest developments in the world of UNTP and Pyx.
       </p>
     ),
   },
@@ -47,7 +47,7 @@ const FeatureList = [
     ),
     description: (
       <p className={styles.description}>
-        Pyx community forums are here for additional support of your open-source implementation of UNTP.
+        Pyx forums are here for community support of your open-source implementation of UNTP.
       </p>
     ),
   },

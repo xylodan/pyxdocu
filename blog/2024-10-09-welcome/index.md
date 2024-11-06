@@ -1,6 +1,6 @@
 ---
 slug: welcome
-title: Welcome
+title: Welcome from the Founders
 authors: [capell, gough, zeus]
 tags: [pyx, hello]
 ---
@@ -20,12 +20,13 @@ At PYX, we believe in the power of transparency to revolutionize supply chains a
 - In-depth analyses of UNTP implementation strategies
 - Case studies showcasing successful UNTP adoption
 - Expert opinions on the latest developments in supply chain transparency
-- Practical guides for Trust Architects and industry leaders
-- Insights into the intersection of technology, trade, and sustainability
+- Insights on the intersection of technology, trade, and sustainability
 
 ### Join the Conversation
 
 We encourage you to engage with our content, share your thoughts, and contribute to the growing community of Trust Architects. Your experiences and perspectives are invaluable in shaping the future of global trade transparency.
+
+Follow this [link to the forums](https://forum.pyx.io/) which we created for us to collaborate!
 
 Thank you for being part of this journey towards a more transparent and sustainable global economy.
 
