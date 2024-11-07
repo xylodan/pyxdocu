@@ -3,8 +3,43 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '5ff'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
+    exact: true
+  },
+  {
     path: '/blog',
-    component: ComponentCreator('/blog', 'c89'),
+    component: ComponentCreator('/blog', 'fec'),
     exact: true
   },
   {
@@ -29,7 +64,12 @@ export default [
   },
   {
     path: '/blog/authors/zeus',
-    component: ComponentCreator('/blog/authors/zeus', 'b9d'),
+    component: ComponentCreator('/blog/authors/zeus', 'df2'),
+    exact: true
+  },
+  {
+    path: '/blog/sparklabs-accelerator',
+    component: ComponentCreator('/blog/sparklabs-accelerator', '98b'),
     exact: true
   },
   {
@@ -40,6 +80,11 @@ export default [
   {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '287'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/agriculture',
+    component: ComponentCreator('/blog/tags/agriculture', 'b63'),
     exact: true
   },
   {
@@ -54,7 +99,7 @@ export default [
   },
   {
     path: '/blog/tags/pyx',
-    component: ComponentCreator('/blog/tags/pyx', 'f0b'),
+    component: ComponentCreator('/blog/tags/pyx', '865'),
     exact: true
   },
   {
@@ -64,12 +109,12 @@ export default [
   },
   {
     path: '/blog/tags/uncefact',
-    component: ComponentCreator('/blog/tags/uncefact', '277'),
+    component: ComponentCreator('/blog/tags/uncefact', '1ff'),
     exact: true
   },
   {
     path: '/blog/tags/untp',
-    component: ComponentCreator('/blog/tags/untp', '7c1'),
+    component: ComponentCreator('/blog/tags/untp', '44b'),
     exact: true
   },
   {
