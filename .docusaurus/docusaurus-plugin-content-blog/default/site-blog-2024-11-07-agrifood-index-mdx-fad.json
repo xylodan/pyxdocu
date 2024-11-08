@@ -1,9 +1,9 @@
 {
-  "permalink": "/blog/sparklabs-accelerator",
-  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-11-07-Spark-Labs/index.mdx",
-  "source": "@site/blog/2024-11-07-Spark-Labs/index.mdx",
-  "title": "Pyx Participation in SparkLabs Cultiv8's Accelerator Program",
-  "description": "Pyx Featured in SparkLab Cultiv8's Showcase Accelerator Program",
+  "permalink": "/blog/agrifood-summit",
+  "editUrl": "https://github.com/xylodan/pyxdocu/tree/main/blog/2024-11-07-agrifood/index.mdx",
+  "source": "@site/blog/2024-11-07-agrifood/index.mdx",
+  "title": "Steve Capell at the 2024 Digital Agrifood Summit",
+  "description": "Pyx on the Speaker Circuit || Digital Agrifood Summit",
   "date": "2024-11-07T00:00:00.000Z",
   "tags": [
     {
@@ -25,27 +25,25 @@
       "description": "United Nations Centre for Trade Facilitation and Electronic Business"
     },
     {
-      "inline": false,
-      "label": "Agriculture",
-      "permalink": "/blog/tags/agriculture",
-      "description": "UNTP Agriculture"
+      "inline": true,
+      "label": "Agrifood",
+      "permalink": "/blog/tags/agrifood"
     }
   ],
-  "readingTime": 1.755,
+  "readingTime": 0.94,
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Zachary Zeus",
-      "title": "Co-Founder/CEO, Pyx Global",
-      "additionalImage": "/img/Pyx-community-member-badge-black-sq.jpg",
+      "name": "Steve Capell",
+      "title": "Co-Founder, Pyx Global",
       "page": {
-        "permalink": "/blog/authors/zeus"
+        "permalink": "/blog/authors/capell"
       },
       "socials": {
-        "LinkedIn": "https://www.linkedin.com/in/zachary-zeus/"
+        "LinkedIn": "https://www.linkedin.com/in/stevecapell/"
       },
-      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a9746aa58491e8571c67_zach-headshot.jpg",
-      "key": "zeus"
+      "imageURL": "https://cdn.prod.website-files.com/65c881267df8e86efaff0508/65d2a974ed89c9029aa5c33c_steve-headshot.jpg",
+      "key": "capell"
     },
     {
       "name": "Pyx Global",
@@ -59,22 +57,26 @@
     }
   ],
   "frontMatter": {
-    "slug": "sparklabs-accelerator",
-    "title": "Pyx Participation in SparkLabs Cultiv8's Accelerator Program",
+    "slug": "agrifood-summit",
+    "title": "Steve Capell at the 2024 Digital Agrifood Summit",
     "authors": [
-      "zeus",
+      "capell",
       "pyx"
     ],
     "tags": [
       "pyx",
       "untp",
       "UN/CEFACT",
-      "Agriculture"
+      "Agrifood"
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Pyx Participation in SparkLabs Cultiv8's Accelerator Program",
+    "permalink": "/blog/sparklabs-accelerator"
+  },
   "nextItem": {
-    "title": "Steve Capell at the 2024 Digital Agrifood Summit",
-    "permalink": "/blog/agrifood-summit"
+    "title": "UNTP 2024 Session 21 Achievements",
+    "permalink": "/blog/untp-2024-session-21-achievements"
   }
 }

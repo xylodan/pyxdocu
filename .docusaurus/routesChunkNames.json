@@ -1,5 +1,5 @@
 {
-  "/blog-fec": {
+  "/blog-61b": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "36994c47"
@@ -8,6 +8,9 @@
     "items": [
       {
         "content": "9ab8c5e2"
+      },
+      {
+        "content": "c09511b2"
       },
       {
         "content": "62bfce90"
@@ -20,6 +23,17 @@
       }
     ],
     "__props": "c15d9823"
+  },
+  "/blog/agrifood-summit-b3e": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "fadb1752"
   },
   "/blog/archive-182": {
     "__comp": "9e4087bc",
@@ -39,7 +53,7 @@
     "sidebar": "814f3328",
     "__props": "ef8b811a"
   },
-  "/blog/authors/capell-ca5": {
+  "/blog/authors/capell-79f": {
     "__comp": "33fc5bb8",
     "__context": {
       "data": {
@@ -48,6 +62,9 @@
       "plugin": "36994c47"
     },
     "items": [
+      {
+        "content": "c09511b2"
+      },
       {
         "content": "c36e66e0"
       },
@@ -136,6 +153,19 @@
     ],
     "__props": "382ba23e"
   },
+  "/blog/tags/agrifood-a6c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c09511b2"
+      }
+    ],
+    "__props": "f84d0d29"
+  },
   "/blog/tags/extensions-4fc": {
     "__comp": "6875c492",
     "__context": {
@@ -162,7 +192,7 @@
     ],
     "__props": "f82cd581"
   },
-  "/blog/tags/pyx-865": {
+  "/blog/tags/pyx-600": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -171,6 +201,9 @@
     "items": [
       {
         "content": "9ab8c5e2"
+      },
+      {
+        "content": "c09511b2"
       },
       {
         "content": "62bfce90"
@@ -197,7 +230,7 @@
     ],
     "__props": "33ef91a8"
   },
-  "/blog/tags/uncefact-1ff": {
+  "/blog/tags/uncefact-ebc": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -206,6 +239,9 @@
     "items": [
       {
         "content": "9ab8c5e2"
+      },
+      {
+        "content": "c09511b2"
       },
       {
         "content": "62bfce90"
@@ -216,7 +252,7 @@
     ],
     "__props": "d60b06e3"
   },
-  "/blog/tags/untp-44b": {
+  "/blog/tags/untp-e84": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "36994c47"
@@ -225,6 +261,9 @@
     "items": [
       {
         "content": "9ab8c5e2"
+      },
+      {
+        "content": "c09511b2"
       },
       {
         "content": "62bfce90"

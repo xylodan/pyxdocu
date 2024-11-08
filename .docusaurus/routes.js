@@ -4,7 +4,12 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', 'fec'),
+    component: ComponentCreator('/blog', '61b'),
+    exact: true
+  },
+  {
+    path: '/blog/agrifood-summit',
+    component: ComponentCreator('/blog/agrifood-summit', 'b3e'),
     exact: true
   },
   {
@@ -19,7 +24,7 @@ export default [
   },
   {
     path: '/blog/authors/capell',
-    component: ComponentCreator('/blog/authors/capell', 'ca5'),
+    component: ComponentCreator('/blog/authors/capell', '79f'),
     exact: true
   },
   {
@@ -53,6 +58,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/agrifood',
+    component: ComponentCreator('/blog/tags/agrifood', 'a6c'),
+    exact: true
+  },
+  {
     path: '/blog/tags/extensions',
     component: ComponentCreator('/blog/tags/extensions', '4fc'),
     exact: true
@@ -64,7 +74,7 @@ export default [
   },
   {
     path: '/blog/tags/pyx',
-    component: ComponentCreator('/blog/tags/pyx', '865'),
+    component: ComponentCreator('/blog/tags/pyx', '600'),
     exact: true
   },
   {
@@ -74,12 +84,12 @@ export default [
   },
   {
     path: '/blog/tags/uncefact',
-    component: ComponentCreator('/blog/tags/uncefact', '1ff'),
+    component: ComponentCreator('/blog/tags/uncefact', 'ebc'),
     exact: true
   },
   {
     path: '/blog/tags/untp',
-    component: ComponentCreator('/blog/tags/untp', '44b'),
+    component: ComponentCreator('/blog/tags/untp', 'e84'),
     exact: true
   },
   {
