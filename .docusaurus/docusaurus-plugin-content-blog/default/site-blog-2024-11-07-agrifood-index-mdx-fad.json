@@ -25,9 +25,10 @@
       "description": "United Nations Centre for Trade Facilitation and Electronic Business"
     },
     {
-      "inline": true,
+      "inline": false,
       "label": "Agrifood",
-      "permalink": "/blog/tags/agrifood"
+      "permalink": "/blog/tags/agrifood",
+      "description": "UNTP Agrifood"
     }
   ],
   "readingTime": 0.94,
@@ -71,12 +72,8 @@
     ]
   },
   "unlisted": false,
-  "prevItem": {
+  "nextItem": {
     "title": "Pyx Participation in SparkLabs Cultiv8's Accelerator Program",
     "permalink": "/blog/sparklabs-accelerator"
-  },
-  "nextItem": {
-    "title": "UNTP 2024 Session 21 Achievements",
-    "permalink": "/blog/untp-2024-session-21-achievements"
   }
 }

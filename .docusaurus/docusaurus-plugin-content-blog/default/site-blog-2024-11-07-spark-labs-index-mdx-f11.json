@@ -73,8 +73,12 @@
     ]
   },
   "unlisted": false,
-  "nextItem": {
+  "prevItem": {
     "title": "Steve Capell at the 2024 Digital Agrifood Summit",
     "permalink": "/blog/agrifood-summit"
+  },
+  "nextItem": {
+    "title": "UNTP 2024 Session 21 Achievements",
+    "permalink": "/blog/untp-2024-session-21-achievements"
   }
 }
