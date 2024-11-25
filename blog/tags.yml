@@ -3,6 +3,11 @@ Agriculture:
   permalink: /agriculture
   description: UNTP Agriculture
 
+Agrifood:
+  label: Agrifood
+  permalink: /agrifood
+  description: UNTP Agrifood
+  
 facebook:
   label: Facebook
   permalink: /facebook
