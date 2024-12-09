@@ -75,8 +75,8 @@ export default {
           "label": "Tech Docs"
         },
         {
-          "to": "/blog",
-          "label": "Articles",
+          "href": "https://pulse.pyx.io/",
+          "label": "Blog",
           "position": "right"
         },
         {
@@ -108,8 +108,8 @@ export default {
               "to": "/docs/intro"
             },
             {
-              "label": "Articles",
-              "to": "/blog"
+              "label": "Blog",
+              "href": "https://pulse.pyx.io/"
             }
           ]
         },

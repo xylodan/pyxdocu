@@ -23,16 +23,16 @@ const FeatureList = [
   },
   {
     title: (
-      <a href="https://kb.pyx.io/blog" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
+      <a href="https://pulse.pyx.io/" target="_blank" rel="noopener noreferrer" className={styles.featureLink}>
         <div className={styles.iconAndText}>
           <IconArticles className={styles.icon} alt="Articles Icon" />
-          <span>Articles</span>
+          <span>Blog</span>
         </div>
       </a>
     ),
     description: (
       <p className={styles.description}>
-        News and views on the latest developments in the world of UNTP and Pyx.
+        Pyx Pulse News and views on the latest developments in the world of UNTP and Pyx.
       </p>
     ),
   },

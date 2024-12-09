@@ -82,7 +82,7 @@ const config = {
             position: 'right',
             label: 'Tech Docs',
           },
-          { to: '/blog', label: 'Articles', position: 'right' },
+          { href: 'https://pulse.pyx.io/', label: 'Blog', position: 'right' },
           {
             href: 'https://forum.pyx.io/',  // New external URL link
             label: 'Forums',        // Label for the new link
@@ -112,8 +112,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'Articles',
-                to: '/blog',
+                label: 'Blog',
+                href: 'https://pulse.pyx.io/',
               },
             ],
           },
